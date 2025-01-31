@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on open-source AI, robotics, ML projects.
 - 📫 How to reach me : [![linkedin](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/bhagya-karunanayake-b52085270/)
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: All models are wrong,but soeme are useful !
+- ⚡ Fun fact: All models are wrong,but some are useful !
 
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
