@@ -2,7 +2,7 @@
 - 👀 I’m interested in AI,ML & computer science
 - 🌱 I’m currently learning computer engineering
 - 💞️ I’m looking to collaborate on open-source AI, robotics, ML projects.
-- 📫 How to reach me :[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:2003zerokali@gmail.com) | [![linkedin](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/bhagya-karunanayake-b52085270/)
+- 📫 How to reach me : [![linkedin](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/bhagya-karunanayake-b52085270/)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: All models are wrong,but soeme are useful !
 
