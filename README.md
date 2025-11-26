@@ -34,11 +34,14 @@
   <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
 </p>
+
+<br>
 <p>
-🏠 Mirigama, Gampha, Sri Lanka </p> 
+<span>🏠 Mirigama, Gampha, Sri Lanka</span></p> 
 <p>
-📞 +94 763263100
+<span>📞 +94 763263100</span>
 </p>
+<br>
 
 ## 💻 Programming Languages:
 <p align="left"> 
@@ -80,6 +83,13 @@
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ubuntu.png" alt="ubuntu" width="40" height="40"/></a>
   <a href="https://www.raspberrypi.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/raspberri_pi.png" alt="raspberri pi" width="40" height="40"/></a>
 </p>
+
+## 🔧 Automation & Workflow Tools
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![Make.com](https://img.shields.io/badge/Make.com-6B46C1?style=for-the-badge&logo=integromat&logoColor=white)
+
+
+---
 
 ## 🚀 Current Focus:
 - 🌐 **Full-Stack Web Development** (MERN Stack)
