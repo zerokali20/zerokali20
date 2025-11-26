@@ -9,7 +9,7 @@
 </p>
 <br>
 
-##🚀 About me  
+## 🚀 About me  
 
 - 🎓 **Computer Science & Engineering Student** with a passion for technology and innovation
 - 🌱 I’m currently learning computer engineering at University of Peradeniya.
@@ -31,6 +31,7 @@
   <a href="https://www.facebook.com/bhagikaru2003" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="zerokali20" height="40" width="40" /></a>
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://www.instagram.com/prabhashwara.insta?igsh=eW1saXA0ZjY5Zmph" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zerokali20" height="40" width="40"/></a> 
+  <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a> 
   <span style="margin-left: 30px;">&nbsp;</span>
 </p>
 
