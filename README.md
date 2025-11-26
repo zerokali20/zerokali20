@@ -86,17 +86,14 @@
 
 ## 📊 GitHub Stats:
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=5s4d1&show_icons=true&theme=radical&layout=compact" alt="zerokali20" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zerokali20&show_icons=true&theme=radical&hide_border=true" alt="zerokali20's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zerokali20&theme=radical&hide_border=true" alt="zerokali20's GitHub Streak" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=5s4d1&show_icons=true&theme=radical" alt="zerokali20" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=5s4d1&theme=radical" alt="zerokali20" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zerokali20&show_icons=true&theme=radical&layout=compact&hide_border=true" alt="zerokali20's Top Languages" />
+</p>
 
 ## 🐍 Contribution Graph:
 <div align="center">
