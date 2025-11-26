@@ -2,7 +2,11 @@
 
 <h1 align="center">Hi 👋, I'm Bhagya Karunanayake</h1>
 <h3 align="center">Computer Engineering Student 🎓</h3>
-<h4 align="center">Passionate about AI & Ml, problem-solving, and building innovative solutions 💻✨</h4>
+<h4 align="center">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=zerokali20%20...⚡;Cipher%20Analytics🔐;Problem%20Solving🤖;Building%20Innovative%20Solutions📘&center=true&width=500&height=45">
+</p>
 
 <p align="center">
   <em>"Sometimes it takes a mistake to learn from it."</em>
@@ -17,8 +21,6 @@
 - 🌱 Currently exploring **AI/ML**, **Data Structures & Algorithms**, and **Web Development**
 - 💞️ I’m looking to collaborate on open-source AI, robotics, ML projects.
 - 🎯 Always eager to learn new technologies and contribute to open-source projects
-- 📫 How to reach me : [![linkedin](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/bhagya-karunanayake-b52085270/)
-- 😄 Pronouns: He/Him
 - ⚡ Fun fact: All models are wrong,but some are useful !
 
 <br>
