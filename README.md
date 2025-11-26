@@ -33,6 +33,9 @@
   <a href="https://www.instagram.com/prabhashwara.insta?igsh=eW1saXA0ZjY5Zmph" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zerokali20" height="40" width="40"/></a> 
   <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
+  <a href="mailto:bhagikaru2003@gmail.com" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Email" height="40" width="40"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
+
 </p>
 
 ## 💻 Programming Languages:
@@ -101,6 +104,24 @@
 </div>
 
 ---
+
+
+
+---
+
+## 📈 Profile Views:
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=5s4d1&style=for-the-badge&color=orange" alt="Profile Views"/>
+</div>
+
+---
+
+<div align="center">
+  <h3>💫 "The best way to predict the future is to create it." 💫</h3>
+  <p><em>Let's connect and build something amazing together!</em></p>
+</div>
+
+
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
