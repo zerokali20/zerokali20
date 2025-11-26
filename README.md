@@ -1,3 +1,6 @@
+![Cover Image](IMG-20250207-WA0116.jpg)
+
+
 - 👋 Hi, I’m @zerokali20
 - 👀 I’m interested in AI,ML,computer science & etc.
 - 🌱 I’m currently learning computer engineering at University of Peradeniya.
