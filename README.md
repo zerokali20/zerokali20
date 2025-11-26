@@ -1,6 +1,6 @@
 ![Cover Image](IMG-20250207-WA0116.jpg)
 
-<h1 align="center">Hi 👋, I'm Bhagya</h1>
+<h1 align="center">Hi 👋, I'm Bhagya Karunanayake</h1>
 <h3 align="center">Computer Engineering Student 🎓</h3>
 <h4 align="center">Passionate about AI & Ml, problem-solving, and building innovative solutions 💻✨</h4>
 
