@@ -33,9 +33,11 @@
   <a href="https://www.instagram.com/prabhashwara.insta?igsh=eW1saXA0ZjY5Zmph" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zerokali20" height="40" width="40"/></a> 
   <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
-  <a href="mailto:bhagikaru2003@gmail.com" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Email" height="40" width="40"/></a>
-  <span style="margin-left: 30px;">&nbsp;</span>
-
+</p>
+<p>
+🏠 Mirigama, Gampha, Sri Lanka </p> 
+<p>
+📞 +94 763263100
 </p>
 
 ## 💻 Programming Languages:
