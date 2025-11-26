@@ -3,14 +3,18 @@
 <h1 align="center">Hi 👋, I'm Bhagya Karunanayake</h1>
 <h3 align="center">Computer Engineering Student 🎓</h3>
 <h4 align="center">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
-
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=zerokali20%20...⚡;Cipher%20Analytics🔐;Problem%20Solving🤖;Building%20Innovative%20Solutions📘&center=true&width=500&height=45">
-</p>
-
-<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com/?lines=zerokali20%20...⚡;Cipher%20Analytics🔐;Problem%20Solving🤖;Building%20Innovative%20Solutions📘&center=true&width=500&height=45&fontSize=40&color=FF0000"
+    style="margin: 20px; border: 1px solid #333; border-radius: 4px;">
+  
+  <p align="center">
   <em>"Sometimes it takes a mistake to learn from it."</em>
+  </p>
 </p>
+
+
+
 <br>
 
 ## 🚀 About me  
