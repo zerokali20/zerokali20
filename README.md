@@ -89,7 +89,17 @@
 ![Make.com](https://img.shields.io/badge/Make.com-6B46C1?style=for-the-badge&logo=integromat&logoColor=white)
 
 
+### 🛠️ Cloud & DevOps
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+
 ---
+
+<br>
 
 ## 🚀 Current Focus:
 - 🌐 **Full-Stack Web Development** (MERN Stack)
@@ -98,6 +108,7 @@
 - 🔐 **Cybersecurity** fundamentals
 - ☁️ **Data Sturctures & Algorithms**
 
+<br>
 
 ## 📊 GitHub Stats:
 
@@ -110,16 +121,16 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zerokali20&show_icons=true&theme=radical&layout=compact&hide_border=true" alt="zerokali20's Top Languages" />
 </p>
 
+<br>
+
 ## 🐍 Contribution Graph:
 <div align="center">
   <img src="https://github.com/5S4D1/5S4D1/assets/123616359/d1e242d6-3768-424a-a84d-5a443b8b959a" alt="github-snake" />
 </div>
 
----
 
 
-
----
+<br>
 
 ## 📈 Profile Views:
 <div align="center">
