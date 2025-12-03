@@ -153,7 +153,9 @@
   <p><em>Let's connect and build something amazing together!</em></p>
 </div>
 
-
+<p align="center">
+     <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=75&section=footer"/>
+</p>
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
