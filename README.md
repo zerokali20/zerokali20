@@ -2,12 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Bhagya%20Karunanayake&fontSize=50&fontColor=61DAFB&fontAlignY=30&animation=twinkling&section=header" />
 </p>
 
----
-  
-![Cover Image](IMG-20250207-WA0116.jpg)
-
----
-
 <h3 align="center">Computer Engineering Student 🎓</h3>
 <h4 align="center">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
 <p align="center">
@@ -19,10 +13,15 @@
   <em>"Sometimes it takes a mistake to learn from it."</em>
   </p>
 </p>
+    
+---
+
+  
+![Cover Image](IMG-20250207-WA0116.jpg)
+
+---
 
 
-
-<br>
 
 ## 🚀 About me  
 
