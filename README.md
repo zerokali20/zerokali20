@@ -2,14 +2,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Bhagya%20Karunanayake&fontSize=50&fontColor=61DAFB&fontAlignY=30&animation=twinkling&section=header" />
 </p>
 
-<h3 align="center">Computer Engineering Student 🎓</h3>
-<h4 align="center">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
-<p align="center">
+<h3 align="left">Computer Engineering Student 🎓</h3>
+<h4 align="left">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
+<p align="left">
   <img
-    src="https://readme-typing-svg.herokuapp.com/?lines=zerokali20%20...⚡;Cipher%20Analytics🔐;Problem%20Solving🤖;Building%20Innovative%20Solutions📘&center=true&width=500&height=45&fontSize=40&color=FF0000"
+    src="https://readme-typing-svg.herokuapp.com/?lines=zerokali20%20...⚡;Cipher%20Analytics🔐;Problem%20Solving🤖;Building%20Innovative%20Solutions📘&width=500&height=45&fontSize=40&color=FF0000"
     style="margin: 20px; border: 1px solid #333; border-radius: 4px;">
   
-  <p align="center">
+  <p align="left">
   <em>"Sometimes it takes a mistake to learn from it."</em>
   </p>
 </p>
