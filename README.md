@@ -45,9 +45,7 @@
   <a href="https://www.instagram.com/prabhashwara.insta?igsh=eW1saXA0ZjY5Zmph" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="zerokali20" height="40" width="40"/></a> 
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a>
-  <span style="margin-left: 30px;">&nbsp;</span>
-
-  
+  <span style="margin-left: 30px;">&nbsp;</span> 
 </p>
 
 <br>
@@ -112,8 +110,7 @@
 
 </div>
 
-### 🛠️ Cloud & DevOps
-
+## 🛠️ Cloud & DevOps
 <div align="center">
   
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
@@ -121,7 +118,24 @@
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
 </div>
+
+## 🏆 Certifications & Achievements
+<p align="center">
+  <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/Q569AT3E?sharingId=487F6FA86AC2E9FD" target="_blank"><img align="center" src="https://learn.microsoft.com/en-us/training/achievements/create-machine-learning-models.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
+  <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/UA2QHSD3?sharingId=487F6FA86AC2E9FD" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
+  <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/NMP4S5RF?sharingId=487F6FA86AC2E9FD" target="_blank"><img align="center" src="https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
+   <a href="https://learn.microsoft.com/en-us/users/bhagyakarunanayake-6165/achievements/82qpttvw" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/explore-and-analyze-data-with-python.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
+  
+  
+</p>
+
+<br>
 
 ---
 
