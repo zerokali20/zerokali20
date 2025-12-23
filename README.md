@@ -136,6 +136,12 @@
 </p>
 
 <br>
+<p align="center">
+  <a href="https://tryhackme.com/p/bhagikaru2003">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge for bhagikaru2003" />
+  </a>
+</p>
+<br>
 
 ---
 
