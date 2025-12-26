@@ -137,6 +137,8 @@
   <span style="margin-left: 30px;">&nbsp;</span>
    <a href="https://learn.microsoft.com/en-us/users/bhagyakarunanayake-6165/achievements/82qpttvw" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/explore-and-analyze-data-with-python.svg" alt="Microsoft Certification" height="80" width="80"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
+  <a href="https://tryhackme.com/bhagikaru2003/badges/intro-to-security-engineering" target="_blank"><img align= "center" src="https://assets.tryhackme.com/img/badges/introtosecurityengineering.svg" alt="TryHackMe Certification" height="100" width="100"/></a>
+  <span style="margin-left: 30px;">&nbsp;</span>
   
   
 </p>
