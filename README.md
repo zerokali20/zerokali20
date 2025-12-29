@@ -32,7 +32,7 @@
 ## 🚀 About me  
 
 <div>
-    <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="300" width="300"/>
+    <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="200" width="200"/>
 </div>
 
  <br>
