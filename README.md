@@ -31,6 +31,12 @@
 
 ## 🚀 About me  
 
+<div>
+    <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="300" width="300"/>
+</div>
+
+ <br>
+ 
 - 🎓 **Computer Science & Engineering Student** with a passion for technology and innovation
 - 🌱 I’m currently learning computer engineering at University of Peradeniya.
 - 💻 **Full-Stack Developer** experienced in both frontend and backend technologies.
@@ -210,3 +216,4 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
