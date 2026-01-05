@@ -22,8 +22,10 @@
     
 ---
 
-<div>
-    <img align = "center" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
+<div align="center"> 
+   
+  <img align = "center" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
+
 </div>
 
 ---
