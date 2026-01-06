@@ -61,7 +61,12 @@
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/tryhackme.svg" alt="zerokali20" height="40" width="40"/></a>
   <span style="margin-left: 30px;">&nbsp;</span> 
+    
+  <img align = "right" src="light2x.png" alt="" data-testid="github_assets"  height="400" width="400"/>
+
+  
 </p>
+
 
 <br>
 <p align="center">
