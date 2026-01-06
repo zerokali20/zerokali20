@@ -22,9 +22,9 @@
     
 ---
 
-<div align="center"> 
+<div align="left"> 
    
-  <img align = "center" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
+  <img align = "centr" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
 
 </div>
 
@@ -35,7 +35,7 @@
 ## 🚀 About me  
 
 <div>
-    <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="200" width="200"/>
+    <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="175" width="175"/>
 </div>
 
  <br>
