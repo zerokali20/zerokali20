@@ -33,6 +33,15 @@
 
 
 ## 🚀 About me  
+<p align="right">
+  <a href="https://github.com/zerokali20">
+    <img src="https://komarev.com/ghpvc/?username=zerokali20&color=blue&label=Profile%20Views" />
+  </a>
+  
+  <a href="https://github.com/zerokali20">
+    <img src="https://img.shields.io/github/followers/zerokali20?label=GitHub%20Followers&color=green&style=flat" />
+  </a>
+</p>
 
 <div>
     <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="175" width="175"/>
@@ -194,20 +203,6 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 
 
 <br>
-
-## 📈 Profile Views:
-
-<p align="center">
-  <a href="https://github.com/zerokali20">
-    <img src="https://komarev.com/ghpvc/?username=zerokali20&color=3a8296&label=Profile%20Views" />
-  </a>
-  
-  <a href="https://github.com/zerokali20">
-    <img src="https://img.shields.io/github/followers/zerokali20?label=GitHub%20Followers&color=3a8296&style=flat" />
-  </a>
-</p>
-
-
 
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
