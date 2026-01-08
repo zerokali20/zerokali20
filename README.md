@@ -182,27 +182,11 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 
 <br>
 
-## 📊 GitHub Stats:
+<br/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zerokali20&show_icons=true&theme=radical&hide_border=true" alt="zerokali20's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zerokali20&theme=radical&hide_border=true" alt="zerokali20's GitHub Streak" />
-</p>
+![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=zerokali20&show_icons=true&theme=radical&layout=compact&hide_border=true" alt="zerokali20's Top Languages" />
-</p>
-
-<br>
-
-## 🐍 Contribution Graph:
-<div align="center">
-  <img src="https://github.com/5S4D1/5S4D1/assets/123616359/d1e242d6-3768-424a-a84d-5a443b8b959a" alt="github-snake" />
-</div>
-
-
-
-<br>
+<br/>
 
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
@@ -212,6 +196,10 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 <p align="center">
      <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
+
+<a href="https://github.com/zerokali20" target="_blank">
+  <img align="right" src="https://img.icons8.com/material-outlined/24/ffffff/github.png" alt="GitHub Icon">
+</a>
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
