@@ -5,10 +5,11 @@
 <div>
   <a href="https://tryhackme.com/p/bhagikaru2003">
     <img align="right" src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge for bhagikaru2003" />
-  </a>
+   </a>
+ 
 </div>
 
-<h3 align="left">Computer Engineering Student 🎓</h3>
+<h3 align="left">Computer Engineering Student 🎓</h3> 
 <h4 align="left">Passionate about AI & Ml, problem-solving, and Passionate Learner 💻✨</h4>
 <p align="left">
   <img
@@ -16,15 +17,18 @@
     style="margin: 20px; border: 1px solid #333; border-radius: 4px;">
   
   <p align="left">
+    
   <em>"Sometimes it takes a mistake to learn from it."</em>
+  
   </p>
 </p>
-    
+ 
 ---
 
 <div align="left"> 
    
   <img align = "centr" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
+   <img align="center" src="https://tryhackme.com/static/image/echo.18364cf6.gif" alt="Goodbye GIF" width="100"/>
   <img align = "right" src="https://github.githubassets.com/assets/profile-first-pr-dark-bc160471dcac.svg" alt="" data-testid="github_assets" height="400" width="400"/>
 </div>
 
@@ -173,7 +177,8 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 
 <br>
 
-## 🚀 Current Focus:
+## 🚀 Current Focus:  
+
 - 🌐 **Full-Stack Web Development** (MERN Stack)
 - 🔌 **Computer Networking** 
 - 🧠 **Machine Learning** and **Artificial Intelligence** fundamentals
@@ -191,6 +196,7 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
   <p><em>Let's connect and build something amazing together!</em></p>
+  
 </div>
 
 <p align="center">
@@ -200,6 +206,11 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 <a href="https://github.com/zerokali20" target="_blank">
   <img align="right" src="https://img.icons8.com/material-outlined/24/ffffff/github.png" alt="GitHub Icon">
 </a>
+
+
+
+
+    
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
