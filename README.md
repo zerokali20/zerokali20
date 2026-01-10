@@ -157,9 +157,11 @@
 
 ## 🏆 Certifications & Achievements
 <p align="center">
+  <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/UA2QHSD3?sharingId=487F6FA86AC2E9FD" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <span style="margin-left: 35px;">&nbsp;</span>
   <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/Q569AT3E?sharingId=487F6FA86AC2E9FD" target="_blank"><img align="center" src="https://learn.microsoft.com/en-us/training/achievements/create-machine-learning-models.svg" alt="Microsoft Certification" height="80" width="80"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
-  <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/UA2QHSD3?sharingId=487F6FA86AC2E9FD" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Certification" height="80" width="80"/></a>
+  <a href="https://tryhackme.com/room/networkingconcepts?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=69156183376bcac9470b8bf5" target=""><img  src="https://tryhackme-images.s3.amazonaws.com/room-icons/5f04259cf9bf5b57aed2c476-1719330093098" alt="Networking concept" height="100" woidth ="100"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/NMP4S5RF?sharingId=487F6FA86AC2E9FD" target="_blank"><img align="center" src="https://learn.microsoft.com/en-us/training/achievements/generic-trophy.svg" alt="Microsoft Certification" height="80" width="80"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
@@ -173,7 +175,7 @@
 
 <p aligh="center">
  <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FCTRQBPYHX.pdf" target="_blank"><img  
-src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft Certification" height="100" width="100"/></a>  
+src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft Certification" height="100" width="100"/></a> 
 </p>
 
 <br>
