@@ -47,10 +47,11 @@
   </a>
 </p>
 
+<!---
 <div>
     <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="175" width="175"/>
 </div>
-
+--->
  <br>
  
 - 🎓 **Computer Science & Engineering Student** with a passion for technology and innovation
