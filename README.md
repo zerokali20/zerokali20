@@ -27,9 +27,9 @@
 
 <div align="left"> 
    
-  <img align = "centr" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
+  <img align = "centr" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="300" width="300"/>
    <img align="center" src="https://tryhackme.com/static/image/echo.18364cf6.gif" alt="Goodbye GIF" width="50"/>
-  <img align = "right" src="https://github.githubassets.com/assets/profile-first-pr-dark-bc160471dcac.svg" alt="" data-testid="github_assets" height="400" width="400"/>
+  <img align = "right" src="https://github.githubassets.com/assets/profile-first-pr-dark-bc160471dcac.svg" alt="" data-testid="github_assets" height="300" width="300"/>
 </div>
 
 
@@ -47,11 +47,11 @@
   </a>
 </p>
 
-<!---
+
 <div>
     <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="175" width="175"/>
 </div>
---->
+
  <br>
  
 - 🎓 **Computer Science & Engineering Student** with a passion for technology and innovation
