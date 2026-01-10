@@ -28,7 +28,7 @@
 <div align="left"> 
    
   <img align = "centr" src="https://github.githubassets.com/assets/inbox-zero-dark-377cc25a227f.svg" alt="" data-testid="github_assets"  height="400" width="400"/>
-   <img align="center" src="https://tryhackme.com/static/image/echo.18364cf6.gif" alt="Goodbye GIF" width="100"/>
+   <img align="center" src="https://tryhackme.com/static/image/echo.18364cf6.gif" alt="Goodbye GIF" width="50"/>
   <img align = "right" src="https://github.githubassets.com/assets/profile-first-pr-dark-bc160471dcac.svg" alt="" data-testid="github_assets" height="400" width="400"/>
 </div>
 
