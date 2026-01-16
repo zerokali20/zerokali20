@@ -1,12 +1,10 @@
 <p algin ="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Bhagya%20Karunanayake&fontSize=50&fontColor=61DAFB&fontAlignY=30&animation=twinkling&section=header" />
 </p>
-
 <div>
   <a href="https://tryhackme.com/p/bhagikaru2003">
     <img align="right" src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge for bhagikaru2003" />
    </a>
- 
 </div>
 
 <h3 align="left">Computer Engineering Student 🎓</h3> 
@@ -19,7 +17,6 @@
   <p align="left">
     
   <em>"Sometimes it takes a mistake to learn from it."</em>
-  
   </p>
 </p>
  
@@ -43,8 +40,6 @@
     <img src="https://img.shields.io/github/followers/zerokali20?label=GitHub%20Followers&color=green&style=flat" />
   </a>
 </p>
-
-
 <div>
     <img align = "right" src="https://tryhackme.com/images/pngs/dashboard/teams-plan.png" alt="" data-testid="teams-plan-image"  height="175" width="175"/>
 </div>
@@ -74,11 +69,7 @@
   <span style="margin-left: 30px;">&nbsp;</span> 
     
   <img align = "right" src="light2x.png" alt="" data-testid="github_assets"  height="400" width="400"/>
-
-  
 </p>
-
-
 <br>
 <p align="center">
 <span>🏠 Mirigama, Gampha, Sri Lanka</span>
