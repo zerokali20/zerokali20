@@ -15,7 +15,6 @@
     style="margin: 20px; border: 1px solid #333; border-radius: 4px;">
   
   <p align="left">
-    
   <em>"Sometimes it takes a mistake to learn from it."</em>
   </p>
 </p>
