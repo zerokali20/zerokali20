@@ -1,6 +1,7 @@
 <p algin ="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Bhagya%20Karunanayake&fontSize=50&fontColor=61DAFB&fontAlignY=30&animation=twinkling&section=header" />
 </p>
+
 <div>
   <a href="https://tryhackme.com/p/bhagikaru2003">
     <img align="right" src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge for bhagikaru2003" />
