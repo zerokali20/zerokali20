@@ -176,10 +176,7 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 - 🔐 **Cybersecurity** fundamentals
 - ☁️ **Data Sturctures & Algorithms**
 
-<br>
-
-<br/>
-
+<br><br/>
 ![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
 
 <br/>
@@ -187,7 +184,6 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
   <p><em>Let's connect and build something amazing together!</em></p>
-  
 </div>
 
 <p align="center">
