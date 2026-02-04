@@ -170,11 +170,11 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 
 ## 🚀 Current Focus:  
 
-- 🌐 **Full-Stack Web Development** (MERN Stack)
-- 🔌 **Computer Networking** 
+- 🔌 **Computer Engineering** 
 - 🧠 **Machine Learning** and **Artificial Intelligence** fundamentals
 - 🔐 **Cybersecurity** fundamentals
 - ☁️ **Data Sturctures & Algorithms**
+- 🌐 **Full-Stack Web Development** (MERN Stack)
 
 <br><br/>
 ![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
