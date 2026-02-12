@@ -38,6 +38,7 @@
   
   <a href="https://github.com/zerokali20">
     <img src="https://img.shields.io/github/followers/zerokali20?label=GitHub%20Followers&color=green&style=flat" />
+    <img src="https://img.shields.io/github/stars/zerokali20?label=Total%20Stars&style=flat&color=yellow" alt="Total Stars" />
   </a>
 </p>
 <div>
