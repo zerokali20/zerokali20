@@ -159,6 +159,10 @@
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://www.holopin.io/claim/cmjuabdmg0009jx047wojm5jz" target="_blank"><img src="https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=" alt="Microsoft Certification" height="100" width="100"/></a>
   
+  <span style="margin-left: 30px;">&nbsp;</span>
+  <img src="certificate/badge.png" alt="Certificate" height="80" width="80"/>
+  <span style="margin-left: 30px;">&nbsp;</span>
+  <img src="certificate/badge2.png" alt="Certificate" height="80" width="80"/>
 </p>
 
 <p aligh="center">
