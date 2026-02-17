@@ -158,16 +158,15 @@
   <a href="https://tryhackme.com/bhagikaru2003/badges/intro-to-security-engineering" target="_blank"><img align= "center" src="https://assets.tryhackme.com/img/badges/introtosecurityengineering.svg" alt="TryHackMe Certification" height="100" width="100"/></a>
   <span style="margin-left: 30px;">&nbsp;</span>
   <a href="https://www.holopin.io/claim/cmjuabdmg0009jx047wojm5jz" target="_blank"><img src="https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=" alt="Microsoft Certification" height="100" width="100"/></a>
-  
-  <span style="margin-left: 30px;">&nbsp;</span>
-  <img src="certificate/badge.png" alt="Certificate" height="80" width="80"/>
-  <span style="margin-left: 30px;">&nbsp;</span>
-  <img src="certificate/badge2.png" alt="Certificate" height="80" width="80"/>
-</p>
+  </p>
 
-<p aligh="center">
- <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FCTRQBPYHX.pdf" target="_blank"><img  
+<p align="center">
+<span style="margin-left: 30px;">&nbsp;</span>
+<img src="certificate/badge.png" alt="Certificate" height="80" width="80"/>
+<a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FCTRQBPYHX.pdf" target="_blank"><img  
 src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft Certification" height="100" width="100"/></a> 
+<span style="margin-left: 30px;">&nbsp;</span>
+<img src="certificate/badge2.png" alt="Certificate" height="80" width="80"/>
 </p>
 
 <br>
