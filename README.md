@@ -166,6 +166,9 @@
 <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FCTRQBPYHX.pdf" target="_blank"><img  
 src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft Certification" height="100" width="100"/></a> 
 <span style="margin-left: 30px;">&nbsp;</span>
+<a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AIU2VUUCHH.pdf" target="_blank"><img  
+src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft Certification" height="100" width="100"/></a> 
+<span style="margin-left: 30px;">&nbsp;</span>
 <img src="certificate/badge2.png" alt="Certificate" height="80" width="80"/>
 </p>
 
