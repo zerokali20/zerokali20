@@ -57,7 +57,8 @@
 
 <br>
 
-## 🌐 Connect with me:
+<details>
+<summary> 🌐 Connect with me:</summary>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="zerokali20" height="40" width="40"/></a>
@@ -79,8 +80,10 @@
 <span>📞 +94 763263100</span>
 </p>
 <br>
+</details>
 
-## 💻 Programming Languages:
+<details>
+<summary> 💻 Programming Languages:</summary>
 <p align="center"> 
     <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c.png" alt="c" width="40" height="40"/></a> 
@@ -88,8 +91,10 @@
   <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a> 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
 </p>
+</details>
 
-## 🌐 Web Technologies:
+<details>
+<summary> 🌐 Web Technologies:</summary>
 <p align="center">
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></a>
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></a>
@@ -97,9 +102,10 @@
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
   <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express" width="40" height="40" style="filter: invert(1);"/></a>
 </p>
+</details>
 
-
-## 🗄️ Databases:
+<details>
+<summary> 🗄️ Databases: </summary>
 <p align="center">
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
@@ -108,31 +114,39 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
   </a>
 </p>
+</details>
 
-## 🛠️ Tools & Technologies:
+<details>
+<summary> 🛠️ Tools & Technologies:</summary>
 <p align="center"> 
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
   <a href="https://github.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="github" width="40" height="40"/></a>
   <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/></a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
 </p>
-
-## 🤖 Robotics & Embedded Systems:
+</details>
+  
+<details>
+<summary> 🤖 Robotics & Embedded Systems:</summary>
 <p align="center">
   <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/arduino.png" alt="arduino" width="40" height="40"/></a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/ubuntu.png" alt="ubuntu" width="40" height="40"/></a>
   <a href="https://www.raspberrypi.com/" target="_blank" rel="noreferrer"> <img align="center" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/raspberri_pi.png" alt="raspberri pi" width="40" height="40"/></a>
 </p>
+</details>
 
-## 🔧 Automation & Workflow Tools
+<details>
+<summary>🔧 Automation & Workflow Tools</summary>
 <div align="center">
   
  ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
  ![Make.com](https://img.shields.io/badge/Make.com-6B46C1?style=for-the-badge&logo=integromat&logoColor=white)
 
 </div>
-
-## 🛠️ Cloud & DevOps
+</details>
+  
+<details>
+<summary> 🛠️ Cloud & DevOps </summary>
 <div align="center">
   
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
@@ -142,8 +156,10 @@
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 </div>
+</details>
 
-## 🏆 Certifications & Achievements
+<details>
+  <summary>🏆 Certifications & Achievements</summary>
 <p align="center">
   <a href="https://learn.microsoft.com/api/achievements/share/en-us/BhagyaKarunanayake-6165/UA2QHSD3?sharingId=487F6FA86AC2E9FD" target="_blank"><img src="https://learn.microsoft.com/en-us/training/achievements/github/communicate-using-markdown.svg" alt="Microsoft Certification" height="80" width="80"/></a>
   <span style="margin-left: 35px;">&nbsp;</span>
@@ -171,10 +187,11 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 <span style="margin-left: 30px;">&nbsp;</span>
 <img src="certificate/badge2.png" alt="Certificate" height="80" width="80"/>
 </p>
-
 <br>
-
-## 🚀 Current Focus:  
+</details>
+  
+<details>  
+<summary> 🚀 Current Focus:  </summary>
 
 - 🔌 **Computer Engineering** 
 - 🧠 **Machine Learning** and **Artificial Intelligence** fundamentals
@@ -186,6 +203,9 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 ![gifgithub](https://github.com/user-attachments/assets/54dc1f7a-f327-43ab-ae9c-58c7421eee39)
 
 <br/>
+</details>
+
+
 
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
