@@ -204,7 +204,6 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
 </details>
 
 
-
 <div align="center">
   <h3>💫 "The best way to predict the future is to create it." 💫</h3>
   <p><em>Let's connect and build something amazing together!</em></p>
