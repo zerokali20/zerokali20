@@ -217,9 +217,6 @@ src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="Microsoft C
   <img align="right" src="https://img.icons8.com/material-outlined/24/ffffff/github.png" alt="GitHub Icon">
 </a>
 
-
-
-
     
 <!---
 zerokali20/zerokali20 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
