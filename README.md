@@ -36,7 +36,7 @@
   </a>
   &nbsp;
   <a href="https://tryhackme.com/p/bhagikaru2003">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge" height="28" />
+    <img src="https://tryhackme-badges.s3.amazonaws.com/bhagikaru2003.png" alt="TryHackMe Badge" height="30" />
   </a>
 </p>
 
