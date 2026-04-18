@@ -253,7 +253,8 @@
   <a href="https://www.holopin.io/claim/cmjuabdmg0009jx047wojm5jz" target="_blank"><img src="https://assets.holopin.io/eyJidWNrZXQiOiJob2xvcGluLWFzc2V0cyIsImtleSI6ImFzc2V0cy9jbDd0ZDhncDUwMTMyMDlrMHd1OHFlNHg5IiwiZWRpdHMiOnsicm90YXRlIjpudWxsfX0=" alt="Holopin" width="75" /></a>&nbsp;
   <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FCTRQBPYHX.pdf" target="_blank"><img src="https://tryhackme.com/images/pngs/certifications/cert.png" alt="THM Cert" width="75" /></a>&nbsp;
   <img src="certificate/badge.png" alt="Badge 1" width="65" />&nbsp;
-  <img src="certificate/badge2.png" alt="Badge 2" width="65" />
+  <img src="certificate/badge2.png" alt="Badge 2" width="65" />&nbsp;
+  <img src="certificate/endpoint-security.png" alt="Badge 3" width="65" />
 </p>
 
 ---
