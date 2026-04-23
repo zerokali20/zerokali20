@@ -89,6 +89,10 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
+  <a href="mailto:bhagikaru2003@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
   <a href="https://www.facebook.com/bhagikaru2003" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
@@ -104,10 +108,12 @@
 
 <p align="left">
   📍 &nbsp;<strong>Mirigama, Gampaha, Sri Lanka</strong><br/>
-  📞 &nbsp;<strong>+94 763263100</strong>
+  📞 &nbsp;<strong>+94 763263100</strong><br/>
+  ✉️ &nbsp;<strong>bhagikaru2003@gmail.com</strong>
 </p>
 
 <br clear="right" />
+
 
 ---
 
