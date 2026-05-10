@@ -66,7 +66,7 @@
 - 🎓 **Computer Science & Engineering Student** with a passion for technology and innovation
 - 🌱 I'm currently learning computer engineering at University of Peradeniya.
 - 💻 **Full-Stack Developer** experienced in both frontend and backend technologies.
-- 🌱 Currently exploring **AI/ML**, **Data Structures & Algorithms**, and **Web Development**
+- 🌱 Currently exploring **AI/ML**, **Data Structures & Algorithms**, and **cyber security**
 - 💞️ I'm looking to collaborate on open-source AI, robotics, ML projects.
 - 🎯 Always eager to learn new technologies and contribute to open-source projects
 - ⚡ Fun fact: All models are wrong,but some are useful !
