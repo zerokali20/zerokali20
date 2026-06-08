@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bhagya Karunanayake — Computer Engineering student at University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and Full-Stack Development." />
+  <meta name="author" content="Bhagya Karunanayake" />
+  <meta name="keywords" content="Bhagya Karunanayake, portfolio, computer engineering, AI, ML, cybersecurity, full-stack developer, Sri Lanka" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bhagya Karunanayake — Portfolio" />
+  <meta property="og:description" content="Computer Engineering student passionate about AI/ML, Cybersecurity, Robotics, and innovative full-stack solutions." />
+  <meta property="og:type" content="website" />
+  <title>Bhagya Karunanayake — Portfolio</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════════════════ -->
+<nav id="navbar" aria-label="Primary navigation">
+  <div class="nav-inner">
+
+    <!-- Logo -->
+    <a href="#" class="nav-logo" data-scroll-top aria-label="Bhagya Karunanayake — back to top">BK</a>
+
+    <!-- Desktop links -->
+    <div class="nav-links">
+      <a href="#about"          class="nav-link" data-nav>About</a>
+      <a href="#projects"       class="nav-link" data-nav>Projects</a>
+      <a href="#competition"    class="nav-link" data-nav>Competition</a>
+      <a href="#qualifications" class="nav-link" data-nav>Qualifications</a>
+      <a href="#skills"         class="nav-link" data-nav>Skills</a>
+      <a href="#contact"        class="nav-link" data-nav>Contact</a>
+      <a href="mailto:bhagikaru2003@gmail.com" class="nav-hire">Hire Me</a>
+    </div>
+
+    <!-- Mobile hamburger -->
+    <button id="mobile-menu-btn" class="hamburger" aria-label="Open menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div id="mobile-overlay" aria-hidden="true"></div>
+
+<!-- Mobile drawer -->
+<div id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="drawer-header">
+    <span class="drawer-title">Menu</span>
+    <button id="mobile-close-btn" class="drawer-close" aria-label="Close menu">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+  </div>
+  <nav class="drawer-links">
+    <a href="#about"          class="drawer-link" data-nav>About</a>
+    <a href="#projects"       class="drawer-link" data-nav>Projects</a>
+    <a href="#competition"    class="drawer-link" data-nav>Competition</a>
+    <a href="#qualifications" class="drawer-link" data-nav>Qualifications</a>
+    <a href="#skills"         class="drawer-link" data-nav>Skills</a>
+    <a href="#contact"        class="drawer-link" data-nav>Contact</a>
+    <a href="mailto:bhagikaru2003@gmail.com" class="drawer-hire">Hire Me</a>
+  </nav>
+</div>
+
+<main>
+
+<!-- ══════════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Introduction">
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+  <div class="hero-gradient" aria-hidden="true"></div>
+
+  <!-- Floating orbs -->
+  <div class="hero-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="hero-grid"></div>
+  </div>
+
+  <!-- Main content -->
+  <div class="hero-content">
+
+    <!-- Available badge -->
+    <div class="hero-badge">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      Available for opportunities
+    </div>
+
+    <!-- Name -->
+    <h1 class="hero-name">
+      Bhagya&nbsp;<span class="name-outline">Karunanayake</span>
+    </h1>
+
+    <!-- Typewriter -->
+    <div class="hero-typewriter" aria-live="polite">
+      <span id="typewriter-text"></span>
+      <span class="typewriter-cursor" aria-hidden="true"></span>
+    </div>
+
+    <!-- Description -->
+    <p class="hero-desc">
+      Computer Engineering student at <span class="hl">University of Peradeniya</span>, passionate about
+      AI/ML, Cybersecurity, Robotics, and building innovative full-stack solutions.
+    </p>
+
+    <!-- CTA Buttons -->
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">
+        View Projects <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+    </div>
+
+    <!-- Tech pills -->
+    <div class="hero-pills" aria-label="Technology stack">
+      <span class="pill">Next.js</span>
+      <span class="pill">TypeScript</span>
+      <span class="pill">Python</span>
+      <span class="pill">AI/ML</span>
+      <span class="pill">C++</span>
+      <span class="pill">Cybersecurity</span>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+    <span class="scroll-label">Scroll</span>
+    <span class="scroll-chevron" aria-hidden="true">
+      <i class="fa-solid fa-chevron-down"></i>
+    </span>
+  </a>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════════════ -->
+<section id="about" aria-label="About me">
+  <!-- Right bg accent -->
+  <div style="position:absolute;top:0;right:0;width:33%;height:100%;background:linear-gradient(to left,rgba(9,208,160,0.03),transparent);pointer-events:none;" aria-hidden="true"></div>
+
+  <div class="container-lg">
+    <!-- Section heading -->
+    <div class="section-head anim-up">
+      <span class="section-label">Who I Am</span>
+      <h2 class="section-title"><span class="ul">About Me</span></h2>
+    </div>
+
+    <div class="about-grid">
+
+      <!-- Left — Photo + socials + quick contact -->
+      <div class="profile-wrap anim-left">
+
+        <!-- Profile image with spinning ring -->
+        <div class="profile-ring-wrap">
+          <div class="profile-ring-spin" aria-hidden="true"></div>
+          <div class="profile-img-wrap">
+            <img
+              src="public/images/profile.jpg"
+              alt="Bhagya Karunanayake"
+              id="profile-img"
+              onerror="this.style.display='none';document.getElementById('profile-fallback').style.display='flex';"
+            />
+            <div class="profile-fallback" id="profile-fallback" aria-hidden="true">BK</div>
+          </div>
+        </div>
+
+        <!-- Social icons -->
+        <div class="social-icons" aria-label="Social media links">
+          <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="GitHub"
+             data-hover-color="#ffffff">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="LinkedIn"
+             data-hover-color="#0A66C2">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="Instagram"
+             data-hover-color="#E1306C">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="Facebook"
+             data-hover-color="#1877F2">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="TryHackMe"
+             data-hover-color="#212C42">
+            <i class="fa-solid fa-shield-halved"></i>
+          </a>
+          <a href="https://orcid.org/0009-0004-3122-6421" target="_blank" rel="noopener noreferrer"
+             class="social-icon" aria-label="ORCID"
+             data-hover-color="#A6CE39">
+            <i class="fa-brands fa-orcid"></i>
+          </a>
+        </div>
+
+        <!-- Quick contact -->
+        <address class="quick-contact" style="font-style:normal;">
+          <div class="contact-row">
+            <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
+            <span>Mirigama, Gampaha, Sri Lanka</span>
+          </div>
+          <div class="contact-row">
+            <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
+            <span>bhagikaru2003@gmail.com</span>
+          </div>
+          <div class="contact-row">
+            <i class="fa-solid fa-phone icon" aria-hidden="true"></i>
+            <span>+94 763263100</span>
+          </div>
+        </address>
+
+      </div><!-- /Left -->
+
+      <!-- Right — Bio -->
+      <div class="about-bio" data-stagger>
+
+        <div>
+          <h3>Hi, I'm Bhagya 👋</h3>
+          <p class="university font-mono">University of Peradeniya, Sri Lanka</p>
+          <p style="margin-top:0.75rem;">
+            "Sometimes it takes a mistake to learn from it." Currently studying Computer Engineering
+            at the University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and
+            building innovative full-stack solutions.
+          </p>
+        </div>
+
+        <!-- Interests -->
+        <div class="tags">
+          <span class="tag">AI / ML</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Robotics</span>
+          <span class="tag">Full-Stack Dev</span>
+          <span class="tag">Open Source</span>
+          <span class="tag">Cloud</span>
+        </div>
+
+        <!-- Fun fact -->
+        <div class="fun-fact">
+          <p class="fun-fact-label">Fun Fact</p>
+          <p>"All models are wrong, but some are useful!"</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-icon">📦</div>
+            <div class="stat-value">36+</div>
+            <div class="stat-label">Repositories</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div class="stat-value">32</div>
+            <div class="stat-label">Followers</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🤖</div>
+            <div class="stat-value">AI/ML</div>
+            <div class="stat-label">Focus Area</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🔐</div>
+            <div class="stat-value">CTF</div>
+            <div class="stat-label">Cybersecurity</div>
+          </div>
+        </div>
+
+      </div><!-- /Right -->
+    </div><!-- /grid -->
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════════════ -->
+<section id="projects" aria-label="Featured projects">
+  <div class="container-lg">
+
+    <div class="section-head anim-up">
+      <span class="section-label">What I've Built</span>
+      <h2 class="section-title"><span class="ul">Featured Projects</span></h2>
+      <p class="section-sub">A selection of projects spanning AI/ML, systems programming, robotics, and web development.</p>
+    </div>
+
+    <div class="projects-grid" data-stagger>
+
+      <!-- 1. PERA-SAM -->
+      <article class="project-card" data-glow-color="#09D0A0" aria-label="PERA-SAM project">
+        <div class="project-top-bar" style="background:linear-gradient(90deg,#09D0A0,transparent);"></div>
+        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(9,208,160,0.12),transparent 60%);"></div>
+        <div class="project-body">
+          <div class="project-icon-wrap" style="background:rgba(9,208,160,0.15);border:1px solid rgba(9,208,160,0.25);">🎵</div>
+          <h3 class="project-title">PERA-SAM</h3>
+          <p class="project-subtitle">2nd Year Project — Team Invictus</p>
+          <p class="project-desc">ML-powered software solution for sound analysis developed as a 2YP at University of Peradeniya. Addresses societal needs using machine learning on audio data. Built with Team Invictus.</p>
+          <div class="project-tech">
+            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">TypeScript</span>
+            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Machine Learning</span>
+            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Audio Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zerokali20/e22-co2060-PERA-SAM" target="_blank" rel="noopener noreferrer" class="project-btn">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. 4lG0ciTy -->
+      <article class="project-card" data-glow-color="#1A1A8A" aria-label="4lG0ciTy project">
+        <div class="project-top-bar" style="background:linear-gradient(90deg,#1A1A8A,transparent);"></div>
+        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(26,26,138,0.12),transparent 60%);"></div>
+        <div class="project-body">
+          <div class="project-icon-wrap" style="background:rgba(26,26,138,0.2);border:1px solid rgba(26,26,138,0.3);">🏙️</div>
+          <h3 class="project-title">4lG0ciTy</h3>
+          <p class="project-subtitle">City Infrastructure Simulator</p>
+          <p class="project-desc">Terminal/GUI-based city infrastructure simulator using Trees, Graphs, and Hash Tables for managing records, road/power networks, and instant data lookup.</p>
+          <div class="project-tech">
+            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">C++</span>
+            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Data Structures</span>
+            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Algorithms</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zerokali20/4lG0ciTy" target="_blank" rel="noopener noreferrer" class="project-btn">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 3. Swarm Simulator -->
+      <article class="project-card" data-glow-color="#7C3AED" aria-label="Swarm Simulator project">
+        <div class="project-top-bar" style="background:linear-gradient(90deg,#7C3AED,transparent);"></div>
+        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(124,58,237,0.12),transparent 60%);"></div>
+        <div class="project-body">
+          <div class="project-icon-wrap" style="background:rgba(124,58,237,0.15);border:1px solid rgba(124,58,237,0.25);">🤖</div>
+          <h3 class="project-title">Swarm Simulator</h3>
+          <p class="project-subtitle">Mixed Reality Robotics Research</p>
+          <p class="project-desc">Mixed reality-based swarm robotics simulator contributing to the Pera-Swarm research project at University of Peradeniya. Simulates coordinated multi-robot behavior.</p>
+          <div class="project-tech">
+            <span class="tech-badge" style="background:rgba(124,58,237,0.12);color:#a78bfa;border:1px solid rgba(124,58,237,0.2);">JavaScript</span>
+            <span class="tech-badge" style="background:rgba(124,58,237,0.12);color:#a78bfa;border:1px solid rgba(124,58,237,0.2);">Mixed Reality</span>
+            <span class="tech-badge" style="background:rgba(124,58,237,0.12);color:#a78bfa;border:1px solid rgba(124,58,237,0.2);">Robotics</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zerokali20/swarm-simulator" target="_blank" rel="noopener noreferrer" class="project-btn">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 4. Nebula-Works -->
+      <article class="project-card" data-glow-color="#DB2777" aria-label="Nebula-Works project">
+        <div class="project-top-bar" style="background:linear-gradient(90deg,#DB2777,transparent);"></div>
+        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(219,39,119,0.12),transparent 60%);"></div>
+        <div class="project-body">
+          <div class="project-icon-wrap" style="background:rgba(219,39,119,0.15);border:1px solid rgba(219,39,119,0.25);">🌌</div>
+          <h3 class="project-title">Nebula-Works</h3>
+          <p class="project-subtitle">Dev × Axero Frontend Contest</p>
+          <p class="project-desc">Responsive admin panel built for the Dev × Axero frontend contest. Features a modern space-themed UI/UX design with full responsiveness across all device sizes.</p>
+          <div class="project-tech">
+            <span class="tech-badge" style="background:rgba(219,39,119,0.12);color:#f472b6;border:1px solid rgba(219,39,119,0.2);">HTML</span>
+            <span class="tech-badge" style="background:rgba(219,39,119,0.12);color:#f472b6;border:1px solid rgba(219,39,119,0.2);">CSS</span>
+            <span class="tech-badge" style="background:rgba(219,39,119,0.12);color:#f472b6;border:1px solid rgba(219,39,119,0.2);">Responsive Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zerokali20/Nebula-Works" target="_blank" rel="noopener noreferrer" class="project-btn">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 5. libtiny3d -->
+      <article class="project-card" data-glow-color="#F59E0B" aria-label="libtiny3d project">
+        <div class="project-top-bar" style="background:linear-gradient(90deg,#F59E0B,transparent);"></div>
+        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(245,158,11,0.12),transparent 60%);"></div>
+        <div class="project-body">
+          <div class="project-icon-wrap" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.25);">🎮</div>
+          <h3 class="project-title">libtiny3d</h3>
+          <p class="project-subtitle">Open Source Contributor</p>
+          <p class="project-desc">A lightweight 3D software renderer library written in C. Contributed to this open-source project, adding features and improving the rendering pipeline.</p>
+          <div class="project-tech">
+            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">C</span>
+            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">3D Rendering</span>
+            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">Open Source</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/GayashaSandeepa/libtiny3d" target="_blank" rel="noopener noreferrer" class="project-btn">
+              <i class="fa-brands fa-github"></i> Source
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /projects-grid -->
+
+    <!-- View all button -->
+    <div class="projects-footer anim-up">
+      <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="btn-github">
+        <i class="fa-brands fa-github"></i>
+        View All on GitHub
+      </a>
+    </div>
+
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     COMPETITION
+═══════════════════════════════════════════════════════ -->
+<section id="competition" aria-label="Competitions and achievements">
+  <div class="bg-accent" aria-hidden="true"></div>
+
+  <div class="container-sm">
+
+    <div class="section-head anim-up">
+      <span class="section-label">Achievements</span>
+      <h2 class="section-title"><span class="ul">Competitions &amp; Events</span></h2>
+      <p class="section-sub">Challenges, contests, and hackathons that have shaped my skills and experience.</p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- 1. Dev × Axero -->
+      <div class="timeline-item anim-left">
+        <div class="timeline-card">
+          <div class="comp-header">
+            <div>
+              <h3 class="comp-title">Dev × Axero Frontend Contest</h3>
+              <p class="comp-org" style="color:#09D0A0;">Axero / Dev Community</p>
+            </div>
+            <span class="comp-year">2024</span>
+          </div>
+          <p class="comp-desc">Built Nebula-Works, a fully responsive space-themed admin panel, competing in a frontend UI/UX design contest. Showcased modern design principles and responsive layouts.</p>
+        </div>
+        <div class="timeline-dot">
+          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(9,208,160,0.25),rgba(9,208,160,0.08));border-color:rgba(9,208,160,0.4);box-shadow:0 0 20px rgba(9,208,160,0.25);">🏆</div>
+        </div>
+        <div class="timeline-spacer"></div>
+      </div>
+
+      <!-- 2. Team Invictus -->
+      <div class="timeline-item anim-right">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot">
+          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(26,26,138,0.3),rgba(26,26,138,0.1));border-color:rgba(26,26,138,0.5);box-shadow:0 0 20px rgba(26,26,138,0.3);">🎓</div>
+        </div>
+        <div class="timeline-card">
+          <div class="comp-header">
+            <div>
+              <h3 class="comp-title">Team Invictus — CO2060 2YP</h3>
+              <p class="comp-org" style="color:#6060d0;">University of Peradeniya</p>
+            </div>
+            <span class="comp-year">2024</span>
+          </div>
+          <p class="comp-desc">Led as part of Team Invictus in the CO2060 Second Year Project. Designed and developed PERA-SAM, a complete software system for ML-based audio analysis addressing real societal challenges.</p>
+        </div>
+      </div>
+
+      <!-- 3. TryHackMe -->
+      <div class="timeline-item anim-left">
+        <div class="timeline-card">
+          <div class="comp-header">
+            <div>
+              <h3 class="comp-title">TryHackMe Challenges</h3>
+              <p class="comp-org" style="color:#a78bfa;">TryHackMe</p>
+            </div>
+            <span class="comp-year">2023–Present</span>
+          </div>
+          <p class="comp-desc">Active participant in CTF (Capture the Flag) challenges and cybersecurity rooms including Intro to Security Engineering and Networking Concepts.</p>
+          <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+             class="comp-link" style="color:#a78bfa;">
+            View Profile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i>
+          </a>
+        </div>
+        <div class="timeline-dot">
+          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(124,58,237,0.25),rgba(124,58,237,0.08));border-color:rgba(124,58,237,0.4);box-shadow:0 0 20px rgba(124,58,237,0.25);">🔐</div>
+        </div>
+        <div class="timeline-spacer"></div>
+      </div>
+
+      <!-- 4. Hacktoberfest -->
+      <div class="timeline-item anim-right">
+        <div class="timeline-spacer"></div>
+        <div class="timeline-dot">
+          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(245,158,11,0.25),rgba(245,158,11,0.08));border-color:rgba(245,158,11,0.4);box-shadow:0 0 20px rgba(245,158,11,0.25);">🦈</div>
+        </div>
+        <div class="timeline-card">
+          <div class="comp-header">
+            <div>
+              <h3 class="comp-title">Hacktoberfest</h3>
+              <p class="comp-org" style="color:#fbbf24;">GitHub / DigitalOcean</p>
+            </div>
+            <span class="comp-year">2023</span>
+          </div>
+          <p class="comp-desc">Achieved GitHub Pull Shark achievement ×2, along with YOLO and Quickdraw badges. Contributed open-source pull requests during Hacktoberfest to multiple repositories.</p>
+        </div>
+      </div>
+
+    </div><!-- /timeline -->
+
+    <!-- Placeholder -->
+    <div class="timeline-footer anim-up" style="margin-top:2.5rem;">
+      <span class="timeline-placeholder">🏅 More competitions &amp; achievements to be added</span>
+    </div>
+
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     QUALIFICATIONS
+═══════════════════════════════════════════════════════ -->
+<section id="qualifications" aria-label="Education and certifications">
+  <div class="container-sm">
+
+    <div class="section-head anim-up">
+      <span class="section-label">My Journey</span>
+      <h2 class="section-title"><span class="ul">Qualifications</span></h2>
+      <p class="section-sub">Education background and professional certifications earned along the way.</p>
+    </div>
+
+    <div class="qual-grid">
+
+      <!-- Education -->
+      <div class="anim-left">
+        <div class="qual-col-head">
+          <div class="qual-col-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
+            <i class="fa-solid fa-graduation-cap" style="color:#09D0A0;"></i>
+          </div>
+          <h3>Education</h3>
+        </div>
+
+        <div class="edu-timeline">
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div class="edu-card">
+              <span class="edu-period">2022 — Present</span>
+              <h4 class="edu-degree">BSc in Computer Engineering (Ongoing)</h4>
+              <p class="edu-institution">University of Peradeniya, Sri Lanka</p>
+              <p class="edu-desc">Studying Computer Engineering with focus on AI/ML, Software Engineering, Computer Networks, Embedded Systems, and Data Structures. Member of @cepdnaclk.</p>
+              <a href="https://www.pdn.ac.lk/" target="_blank" rel="noopener noreferrer" class="edu-link">
+                Visit University <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65rem;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="anim-right">
+        <div class="qual-col-head">
+          <div class="qual-col-icon" style="background:rgba(26,26,138,0.2);border:1px solid rgba(26,26,138,0.4);">
+            <i class="fa-solid fa-award" style="color:#88C0D0;"></i>
+          </div>
+          <h3>Certifications</h3>
+        </div>
+
+        <div class="cert-timeline" data-stagger>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#0078D4;box-shadow:0 0 8px rgba(0,120,212,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🔵</span>
+              <div>
+                <p class="cert-title">Communicate using Markdown</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#0078D4;">Microsoft Learn</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#0078D4;box-shadow:0 0 8px rgba(0,120,212,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🔵</span>
+              <div>
+                <p class="cert-title">Create Machine Learning Models</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#0078D4;">Microsoft Learn</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#0078D4;box-shadow:0 0 8px rgba(0,120,212,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🔵</span>
+              <div>
+                <p class="cert-title">Explore and Analyze Data with Python</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#0078D4;">Microsoft Learn</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#0078D4;box-shadow:0 0 8px rgba(0,120,212,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🏅</span>
+              <div>
+                <p class="cert-title">Generic Trophy Achievement</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#0078D4;">Microsoft Learn</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#212C42;box-shadow:0 0 8px rgba(33,44,66,0.7);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🔐</span>
+              <div>
+                <p class="cert-title">Intro to Security Engineering Badge</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#88C0D0;">TryHackMe</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#212C42;box-shadow:0 0 8px rgba(33,44,66,0.7);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🌐</span>
+              <div>
+                <p class="cert-title">Networking Concepts Room Completion</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#88C0D0;">TryHackMe</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#212C42;box-shadow:0 0 8px rgba(33,44,66,0.7);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">📜</span>
+              <div>
+                <p class="cert-title">Completion Certificate (THM-FCTRQBPYHX)</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#88C0D0;">TryHackMe</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#049FD9;box-shadow:0 0 8px rgba(4,159,217,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🛡️</span>
+              <div>
+                <p class="cert-title">Endpoint Security Badge</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#049FD9;">Cisco</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-dot" style="background:#7C3AED;box-shadow:0 0 8px rgba(124,58,237,0.5);"></div>
+            <div class="cert-card">
+              <span class="cert-emoji">🎖️</span>
+              <div>
+                <p class="cert-title">Holopin Digital Badge Collection</p>
+                <div class="cert-meta">
+                  <span class="cert-issuer" style="color:#a78bfa;">Holopin</span>
+                  <span class="cert-year">• 2023</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Placeholder -->
+          <div class="cert-placeholder">
+            <div class="cert-placeholder-card">
+              📄 Certificate images — add to /public/images/certificates/
+            </div>
+          </div>
+
+        </div><!-- /cert-timeline -->
+      </div>
+
+    </div><!-- /qual-grid -->
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     SKILLS
+═══════════════════════════════════════════════════════ -->
+<section id="skills" aria-label="Skills and technologies">
+  <div class="container-lg">
+
+    <div class="section-head anim-up">
+      <span class="section-label">My Toolkit</span>
+      <h2 class="section-title"><span class="ul">Skills &amp; Technologies</span></h2>
+      <p class="section-sub">A broad stack from systems programming to cloud infrastructure, AI/ML, and security.</p>
+    </div>
+
+    <div class="skills-grid" data-stagger>
+
+      <!-- Programming Languages -->
+      <div class="skill-cat" data-glow-color="#09D0A0" style="transition-delay:0s;">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.22);">💻</div>
+          <span class="skill-cat-name" style="color:#09D0A0;">Programming Languages</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Python</span>
+          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C</span>
+          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C++</span>
+          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Java</span>
+          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">JavaScript</span>
+        </div>
+      </div>
+
+      <!-- Web Technologies -->
+      <div class="skill-cat" data-glow-color="#3B82F6">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.22);">🌐</div>
+          <span class="skill-cat-name" style="color:#3B82F6;">Web Technologies</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">HTML5</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">CSS3</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">React.js</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Node.js</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Express.js</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">TypeScript</span>
+          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Next.js</span>
+        </div>
+      </div>
+
+      <!-- Databases -->
+      <div class="skill-cat" data-glow-color="#F59E0B">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.22);">🗄️</div>
+          <span class="skill-cat-name" style="color:#F59E0B;">Databases</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MySQL</span>
+          <span class="skill-badge" style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MongoDB</span>
+        </div>
+      </div>
+
+      <!-- Tools & Dev -->
+      <div class="skill-cat" data-glow-color="#8B5CF6">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.22);">🛠️</div>
+          <span class="skill-cat-name" style="color:#8B5CF6;">Tools &amp; Dev</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Git</span>
+          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">GitHub</span>
+          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">VS Code</span>
+          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Linux</span>
+        </div>
+      </div>
+
+      <!-- Robotics & Embedded -->
+      <div class="skill-cat" data-glow-color="#EC4899">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.22);">🤖</div>
+          <span class="skill-cat-name" style="color:#EC4899;">Robotics &amp; Embedded</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Arduino</span>
+          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Raspberry Pi</span>
+          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Ubuntu</span>
+        </div>
+      </div>
+
+      <!-- Automation & Workflow -->
+      <div class="skill-cat" data-glow-color="#14B8A6">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(20,184,166,0.12);border:1px solid rgba(20,184,166,0.22);">🔧</div>
+          <span class="skill-cat-name" style="color:#14B8A6;">Automation &amp; Workflow</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">n8n</span>
+          <span class="skill-badge" style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">Make.com (Integromat)</span>
+        </div>
+      </div>
+
+      <!-- Cloud & DevOps -->
+      <div class="skill-cat" data-glow-color="#F97316">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(249,115,22,0.12);border:1px solid rgba(249,115,22,0.22);">☁️</div>
+          <span class="skill-cat-name" style="color:#F97316;">Cloud &amp; DevOps</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Microsoft Azure</span>
+          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Google Cloud</span>
+          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Heroku</span>
+          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Docker</span>
+          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Redis</span>
+        </div>
+      </div>
+
+      <!-- Cybersecurity -->
+      <div class="skill-cat" data-glow-color="#EF4444">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.22);">🔐</div>
+          <span class="skill-cat-name" style="color:#EF4444;">Cybersecurity</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">TryHackMe (Active)</span>
+          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Intro to Security Eng.</span>
+          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Networking Concepts</span>
+          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Endpoint Security</span>
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div class="skill-cat" data-glow-color="#A855F7">
+        <div class="skill-cat-head">
+          <div class="skill-cat-icon" style="background:rgba(168,85,247,0.12);border:1px solid rgba(168,85,247,0.22);">🧠</div>
+          <span class="skill-cat-name" style="color:#A855F7;">AI / ML</span>
+        </div>
+        <div class="skill-badges">
+          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">ML Models (Azure)</span>
+          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Data Analysis w/ Python</span>
+          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Audio ML (PERA-SAM)</span>
+          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">scikit-learn</span>
+        </div>
+      </div>
+
+    </div><!-- /skills-grid -->
+
+    <!-- Bottom decoration -->
+    <div style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:1px;height:5rem;background:linear-gradient(to bottom,rgba(9,208,160,0.3),transparent);" aria-hidden="true"></div>
+
+  </div><!-- /container -->
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════════════════ -->
+<section id="contact" aria-label="Contact">
+  <div class="contact-glow" aria-hidden="true"></div>
+
+  <div class="container-sm">
+
+    <div class="section-head anim-up">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="section-title"><span class="ul">Contact Me</span></h2>
+      <p class="section-sub">Have a project, opportunity, or just want to say hi? My inbox is always open.</p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Left — Info -->
+      <div class="contact-info" data-stagger>
+
+        <a href="mailto:bhagikaru2003@gmail.com" class="contact-card" aria-label="Send email">
+          <div class="contact-card-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
+            <i class="fa-solid fa-envelope" style="color:#09D0A0;"></i>
+          </div>
+          <div>
+            <p class="contact-card-label">Email</p>
+            <p class="contact-card-value">bhagikaru2003@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:+94763263100" class="contact-card" aria-label="Call phone number">
+          <div class="contact-card-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.25);">
+            <i class="fa-solid fa-phone" style="color:#3B82F6;"></i>
+          </div>
+          <div>
+            <p class="contact-card-label">Phone</p>
+            <p class="contact-card-value">+94 763263100</p>
+          </div>
+        </a>
+
+        <a href="https://maps.google.com/?q=Mirigama,Sri+Lanka" target="_blank" rel="noopener noreferrer"
+           class="contact-card" aria-label="View location on map">
+          <div class="contact-card-icon" style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.25);">
+            <i class="fa-solid fa-location-dot" style="color:#EC4899;"></i>
+          </div>
+          <div>
+            <p class="contact-card-label">Location</p>
+            <p class="contact-card-value">Mirigama, Sri Lanka</p>
+          </div>
+        </a>
+
+        <!-- Social row -->
+        <div class="find-me">
+          <p class="find-me-label">Find me on</p>
+          <div class="find-me-icons">
+            <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
+               class="social-icon" aria-label="GitHub" data-hover-color="#ffffff">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
+               class="social-icon" aria-label="LinkedIn" data-hover-color="#0A66C2">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+               class="social-icon" aria-label="Instagram" data-hover-color="#E1306C">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+               class="social-icon" aria-label="Facebook" data-hover-color="#1877F2">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+               class="social-icon" aria-label="TryHackMe" data-hover-color="#88C0D0">
+              <i class="fa-solid fa-shield-halved"></i>
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /info -->
+
+      <!-- Right — Form -->
+      <div class="anim-right">
+        <div class="contact-form-wrap">
+          <h3>Send a Message</h3>
+
+          <!-- Form -->
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" class="form-input"
+                     placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" class="form-input"
+                     placeholder="your@email.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" class="form-input"
+                        rows="5" placeholder="Tell me about your project or opportunity…" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span class="btn-label">
+                <i class="fa-solid fa-paper-plane"></i>
+                Send Message
+              </span>
+              <span class="btn-spinner" aria-live="polite">
+                <span class="spinner" aria-hidden="true"></span>
+                Sending…
+              </span>
+            </button>
+          </form>
+
+          <!-- Success state -->
+          <div id="form-success" role="alert" aria-live="assertive">
+            <div class="success-icon">✅</div>
+            <h4>Message Sent!</h4>
+            <p>Thanks for reaching out. I'll get back to you soon.</p>
+          </div>
+
+        </div><!-- /form-wrap -->
+      </div>
+
+    </div><!-- /contact-grid -->
+  </div><!-- /container -->
+</section>
+
+</main><!-- /main -->
+
+
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-glow" aria-hidden="true"></div>
+
+  <div class="footer-inner">
+
+    <!-- Logo -->
+    <div class="footer-logo" data-scroll-top role="button" tabindex="0" aria-label="Back to top">BK</div>
+
+    <!-- Nav links -->
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#about"          class="footer-link">About</a>
+      <a href="#projects"       class="footer-link">Projects</a>
+      <a href="#competition"    class="footer-link">Competition</a>
+      <a href="#qualifications" class="footer-link">Qualifications</a>
+      <a href="#skills"         class="footer-link">Skills</a>
+      <a href="#contact"        class="footer-link">Contact</a>
+    </nav>
+
+    <!-- Social icons -->
+    <div class="footer-socials" aria-label="Social links">
+      <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="Facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="TryHackMe">
+        <i class="fa-solid fa-shield-halved"></i>
+      </a>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      <p>© <span id="year"></span> <span class="name-hl">Bhagya Karunanayake</span>. All rights reserved.</p>
+      <p class="built">Built with HTML · CSS · JavaScript</p>
+    </div>
+
+  </div><!-- /footer-inner -->
+</footer>
+
+<!-- ── Scripts ──────────────────────────────────────────── -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/particles.js"></script>
+<script src="js/typewriter.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
