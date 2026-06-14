@@ -2,7 +2,9 @@
 <!-- 🌊  HEADER BANNER                                                      -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <p align="center">
+  <a href="https://zerokali20.github.io/zerokali20/" target="_blank">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,50:1a5276,100:091519&height=200&text=Bhagya%20Karunanayake&fontSize=48&fontColor=61DAFB&fontAlignY=35&animation=twinkling&section=header&desc=Computer%20Engineering%20Student%20%7C%20AI%20and%20ML%20Enthusiast&descSize=16&descColor=88C0D0&descAlignY=55" width="100%" />
+  </a>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
