@@ -1000,49 +1000,58 @@
 <footer>
   <div class="footer-glow" aria-hidden="true"></div>
 
-  <!-- ── Portfolio Info Card ── -->
-  <div class="footer-info-card">
-    <div class="footer-info-left">
-      <h3 class="footer-info-name">Bhagya Karunanayake</h3>
-      <p class="footer-info-bio">
-        Computer Engineering undergraduate specializing in AI/ML, Cybersecurity, Robotics,
-        and Full-Stack Development. Passionate about building intelligent systems and innovative solutions.
-      </p>
-      <div class="footer-info-location">
-        <i class="fa-solid fa-location-dot"></i>
-        <span>University of Peradeniya, Sri Lanka</span>
-      </div>
-    </div>
-    <div class="footer-info-right">
-      <p class="footer-info-connect-label">Connect</p>
-      <div class="footer-info-icons" aria-label="Connect social links">
-        <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
-           class="fic-btn" aria-label="GitHub">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
-           class="fic-btn" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="mailto:bhagikaru2003@gmail.com"
-           class="fic-btn" aria-label="Email">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-        <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
-           class="fic-btn" aria-label="Instagram">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-           class="fic-btn" aria-label="Facebook">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-      </div>
-    </div>
-  </div><!-- /footer-info-card -->
+  <div class="footer-inner">
 
+    <!-- Logo -->
+    <div class="footer-logo" data-scroll-top role="button" tabindex="0" aria-label="Back to top">BK</div>
+
+    <!-- Nav links -->
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#about"          class="footer-link">About</a>
+      <a href="#projects"       class="footer-link">Projects</a>
+      <a href="#competition"    class="footer-link">Competition</a>
+      <a href="#qualifications" class="footer-link">Qualifications</a>
+      <a href="#skills"         class="footer-link">Skills</a>
+      <a href="#contact"        class="footer-link">Contact</a>
+    </nav>
+
+    <!-- Social icons -->
+    <div class="footer-socials" aria-label="Social links">
+      <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="Facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+         class="footer-social" aria-label="TryHackMe">
+        <i class="fa-solid fa-shield-halved"></i>
+      </a>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      <p>© <span id="year"></span> <span class="name-hl">Bhagya Karunanayake</span>. All rights reserved.</p>
+      <p class="built">Built with HTML · CSS · JavaScript</p>
+    </div>
+
+  </div><!-- /footer-inner -->
 </footer>
 
 <!-- ── Scripts ──────────────────────────────────────────── -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script src="js/particles.js"></script>
 <script src="js/typewriter.js"></script>
 <script src="js/animations.js"></script>
