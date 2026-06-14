@@ -1435,7 +1435,7 @@ textarea.form-input { resize: none; }
 footer {
   position: relative;
   border-top: 1px solid rgba(31,41,55,0.6);
-  padding: 3rem 0;
+  padding: 3.5rem 1.5rem 3rem;
   overflow: hidden;
 }
 footer .footer-glow {
@@ -1571,4 +1571,163 @@ footer .footer-glow {
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .hero-cta   { flex-direction: column; width: 100%; }
   .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+}
+
+/* ══════════════════════════════════════════════════════
+   FOOTER INFO CARD
+   Inspired by the reference design: dark card with
+   name + bio + location on the left, Connect + icons on right.
+═══════════════════════════════════════════════════════ */
+.footer-info-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 2rem 2.5rem;
+  background: rgba(13, 17, 30, 0.90);
+  border: 1px solid rgba(9, 208, 160, 0.12);
+  border-radius: var(--r-lg);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow:
+    0 4px 32px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.03) inset;
+  position: relative;
+  overflow: hidden;
+}
+
+/* subtle top-edge glow line like the reference */
+.footer-info-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--accent) 35%,
+    #4f7fff 65%,
+    transparent 100%);
+  opacity: 0.7;
+}
+
+/* ── Left side ─────────────────────────────────────── */
+.footer-info-left {
+  flex: 1;
+  min-width: 0;
+}
+
+.footer-info-name {
+  font-family: var(--font-h);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.65rem;
+  letter-spacing: -0.01em;
+}
+
+.footer-info-bio {
+  font-family: var(--font-b);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: #a0aec0;
+  margin-bottom: 1rem;
+  max-width: 480px;
+}
+
+.footer-info-location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-family: var(--font-b);
+}
+
+.footer-info-location i {
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+/* ── Right side ────────────────────────────────────── */
+.footer-info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.footer-info-connect-label {
+  font-family: var(--font-h);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.footer-info-icons {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+/* individual icon button */
+.fic-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #a0aec0;
+  font-size: 1rem;
+  transition: var(--tr);
+  position: relative;
+  overflow: hidden;
+}
+
+.fic-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, var(--accent) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.fic-btn:hover {
+  background: rgba(9, 208, 160, 0.15);
+  border-color: rgba(9, 208, 160, 0.45);
+  color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(9, 208, 160, 0.2);
+}
+
+.fic-btn:hover::after { opacity: 0.08; }
+
+/* ── Responsive ────────────────────────────────────── */
+@media (max-width: 768px) {
+  .footer-info-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.75rem 1.5rem;
+    gap: 1.75rem;
+  }
+  .footer-info-right {
+    align-items: flex-start;
+    width: 100%;
+  }
+  .footer-info-icons { justify-content: flex-start; }
+}
+
+@media (max-width: 480px) {
+  .footer-info-name { font-size: 1.1rem; }
+  .footer-info-bio  { font-size: 0.82rem; }
 }
