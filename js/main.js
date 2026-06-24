@@ -3,12 +3,12 @@
   'use strict';
 
   /* ── Elements ─────────────────────────────────────── */
-  const navbar      = document.getElementById('navbar');
-  const menuBtn     = document.getElementById('mobile-menu-btn');
-  const drawer      = document.getElementById('mobile-drawer');
-  const overlay     = document.getElementById('mobile-overlay');
-  const closeBtn    = document.getElementById('mobile-close-btn');
-  const navLinks    = document.querySelectorAll('[data-nav]');
+  const navbar = document.getElementById('navbar');
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const drawer = document.getElementById('mobile-drawer');
+  const overlay = document.getElementById('mobile-overlay');
+  const closeBtn = document.getElementById('mobile-close-btn');
+  const navLinks = document.querySelectorAll('[data-nav]');
   const contactForm = document.getElementById('contact-form');
   const formSuccess = document.getElementById('form-success');
 
@@ -82,33 +82,100 @@
     if (e.key === 'Escape') closeMobile();
   });
 
-  /* ── Contact Form Simulation ──────────────────────── */
+  /* ── Contact Form — Web3Forms Integration ─────────── */
+
+  // ╔═══════════════════════════════════════════════════╗
+  // ║  Paste your Web3Forms Access Key below            ║
+  // ║  Get it free at: https://web3forms.com            ║
+  // ╚═══════════════════════════════════════════════════╝
+  const WEB3FORMS_ACCESS_KEY = '24587553-aecd-4436-9bd6-55a37f76dff1';
+
   if (contactForm) {
     contactForm.addEventListener('submit', async e => {
       e.preventDefault();
 
-      const btn     = contactForm.querySelector('.submit-btn');
+      // ── Basic validation ───────────────────────────
+      const nameVal = contactForm.querySelector('#contact-name').value.trim();
+      const emailVal = contactForm.querySelector('#contact-email').value.trim();
+      const messageVal = contactForm.querySelector('#contact-message').value.trim();
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      if (!nameVal || !emailVal || !messageVal) {
+        showFormError('Please fill in all fields before sending.'); return;
+      }
+      if (!emailRegex.test(emailVal)) {
+        showFormError('Please enter a valid email address.'); return;
+      }
+
+      // ── Show spinner ───────────────────────────────
+      const btn = contactForm.querySelector('.submit-btn');
       const txtNode = btn.querySelector('.btn-label');
       const spinner = btn.querySelector('.btn-spinner');
+      btn.disabled = true;
+      txtNode.style.display = 'none';
+      spinner.style.display = 'flex';
+      clearFormError();
 
-      btn.disabled    = true;
-      txtNode.style.display  = 'none';
-      spinner.style.display  = 'flex';
+      // ── Send via Web3Forms ─────────────────────────
+      try {
+        const res = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            access_key: WEB3FORMS_ACCESS_KEY,
+            name: nameVal,
+            email: emailVal,
+            message: messageVal,
+            subject: `New Portfolio Message from ${nameVal}`
+          })
+        });
 
-      await new Promise(r => setTimeout(r, 1600));
+        const data = await res.json();
 
-      contactForm.style.display = 'none';
-      formSuccess.style.display = 'flex';
+        if (data.success) {
+          // ✅ Success
+          contactForm.style.display = 'none';
+          formSuccess.style.display = 'flex';
 
-      setTimeout(() => {
-        contactForm.reset();
-        contactForm.style.display = 'flex';
-        formSuccess.style.display = 'none';
-        btn.disabled   = false;
+          setTimeout(() => {
+            contactForm.reset();
+            contactForm.style.display = 'flex';
+            formSuccess.style.display = 'none';
+            btn.disabled = false;
+            txtNode.style.display = 'flex';
+            spinner.style.display = 'none';
+          }, 5000);
+
+        } else {
+          throw new Error(data.message || 'Submission failed');
+        }
+
+      } catch (err) {
+        // ❌ Failure — re-enable button, show error
+        btn.disabled = false;
         txtNode.style.display = 'flex';
         spinner.style.display = 'none';
-      }, 5000);
+        showFormError('Failed to send — please try again or email me directly at bhagikaru2003@gmail.com');
+        console.error('Web3Forms error:', err);
+      }
     });
+  }
+
+  function showFormError(msg) {
+    let el = document.getElementById('form-error-msg');
+    if (!el) {
+      el = document.createElement('p');
+      el.id = 'form-error-msg';
+      el.style.cssText = 'color:#f87171;font-size:0.85rem;margin-top:-0.5rem;padding:0.6rem 0.8rem;background:rgba(248,113,113,0.08);border:1px solid rgba(248,113,113,0.3);border-radius:8px;';
+      contactForm.querySelector('.submit-btn').insertAdjacentElement('beforebegin', el);
+    }
+    el.textContent = msg;
+    el.style.display = 'block';
+  }
+
+  function clearFormError() {
+    const el = document.getElementById('form-error-msg');
+    if (el) el.style.display = 'none';
   }
 
   /* ── Scroll-to-top buttons ────────────────────────── */
@@ -133,14 +200,14 @@
   document.querySelectorAll('[data-hover-color]').forEach(icon => {
     const color = icon.getAttribute('data-hover-color');
     icon.addEventListener('mouseenter', () => {
-      icon.style.color       = color;
+      icon.style.color = color;
       icon.style.borderColor = color + '66';
-      icon.style.boxShadow   = `0 0 16px ${color}44`;
+      icon.style.boxShadow = `0 0 16px ${color}44`;
     });
     icon.addEventListener('mouseleave', () => {
-      icon.style.color       = '';
+      icon.style.color = '';
       icon.style.borderColor = '';
-      icon.style.boxShadow   = '';
+      icon.style.boxShadow = '';
     });
   });
 })();
