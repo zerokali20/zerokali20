@@ -216,6 +216,27 @@ section { position: relative; padding: 6rem 0; }
   padding: 0 1.5rem;
 }
 
+/* Logo Area */
+.nav-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.nav-profile-img {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(9,208,160,0.3);
+  transition: var(--tr);
+}
+
+.nav-profile-img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px rgba(9,208,160,0.6);
+}
+
 /* Logo */
 .nav-logo {
   display: flex;
@@ -1456,22 +1477,6 @@ footer .footer-glow {
   padding: 0 1.5rem;
 }
 
-.footer-logo {
-  width: 2.8rem; height: 2.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--r);
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  font-family: var(--font-h);
-  font-weight: 700;
-  font-size: 1rem;
-  color: #fff;
-  box-shadow: 0 0 18px rgba(9,208,160,0.3);
-  cursor: pointer;
-  transition: var(--tr);
-}
-.footer-logo:hover { box-shadow: 0 0 28px rgba(9,208,160,0.6); transform: scale(1.07); }
 
 .footer-links {
   display: flex;
@@ -1527,6 +1532,9 @@ footer .footer-glow {
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
   .skills-grid   { grid-template-columns: repeat(2, 1fr); }
   .stats-grid    { grid-template-columns: repeat(2, 1fr); }
+
+  /* Contact grid: tighter at tablet */
+  .contact-grid { gap: 1.5rem; }
 }
 
 @media (max-width: 768px) {
@@ -1539,20 +1547,47 @@ footer .footer-glow {
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .profile-img-wrap { width: 10rem; height: 10rem; }
 
+  /* Fix contact-row text overflow on mobile */
+  .contact-row span { white-space: normal; word-break: break-word; }
+  .quick-contact    { max-width: 100%; }
+
   /* Projects */
   .projects-grid { grid-template-columns: 1fr; }
 
   /* Competition — mobile linear timeline */
-  .timeline::before { left: 1.5rem; }
+  .timeline::before { left: 1.25rem; transform: none; }
+
+  /* Switch every timeline-item to flexbox — bypasses the grid-column DOM-order problem */
   .timeline-item {
-    grid-template-columns: 3.5rem 1fr;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
   }
-  .timeline-item .timeline-dot    { grid-column: 1; grid-row: 1; }
-  .timeline-item .timeline-card   { grid-column: 2; grid-row: 1; padding: 0 0 0 1rem !important; }
-  .timeline-item .timeline-spacer { display: none; }
-  .timeline-item:nth-child(even) .timeline-spacer { display: none; }
-  .timeline-item:nth-child(even) .timeline-card { grid-column: 2; order: 0; }
+
+  /* Always hide the spacer */
+  .timeline-item .timeline-spacer { display: none !important; }
+
+  /* Dot always first (leftmost), fixed width */
+  .timeline-item .timeline-dot {
+    order: 1;
+    flex: 0 0 2.5rem;
+    padding-top: 0.75rem;
+  }
+
+  /* Card always second (fills remaining space) */
+  .timeline-item .timeline-card {
+    order: 2;
+    flex: 1 1 0;
+    padding: 1rem 1rem !important;
+    min-width: 0;   /* prevents flex child from overflowing */
+  }
+
+  /* Reset any desktop nth-child overrides */
+  .timeline-item:nth-child(odd)  .timeline-card { padding-right: 0 !important; }
+  .timeline-item:nth-child(even) .timeline-card { padding-left:  1rem !important; order: 2; }
+  .timeline-item:nth-child(even) .timeline-dot  { order: 1; }
+  .timeline-item:nth-child(even) .timeline-spacer { display: none !important; }
 
   /* Qualifications */
   .qual-grid { grid-template-columns: 1fr; gap: 2.5rem; }
@@ -1563,14 +1598,76 @@ footer .footer-glow {
   /* Contact */
   .contact-grid { grid-template-columns: 1fr; }
 
+  /* Prevent contact card value overflow */
+  .contact-card-value { word-break: break-all; }
+
   /* Hero */
-  .hero-name { font-size: clamp(2.4rem, 12vw, 4rem); }
+  .hero-name { font-size: clamp(2.2rem, 11vw, 3.5rem); }
+  .hero-desc { font-size: 0.92rem; }
+  .section-title { font-size: clamp(1.6rem, 6vw, 2.4rem); }
+
+  /* Footer info card */
+  .footer-info-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1rem;
+    gap: 1.5rem;
+  }
+  .footer-info-right { align-items: flex-start; width: 100%; }
+  .footer-info-icons { justify-content: flex-start; }
+
+  /* Reduce orb sizes on mobile to prevent horizontal overflow */
+  .orb-1 { width: 14rem; height: 14rem; }
+  .orb-2 { width: 12rem; height: 12rem; }
+  .orb-3 { width: 10rem; height: 10rem; }
+
+  /* Nav profile image size on mobile */
+  .nav-profile-img { width: 2.2rem; height: 2.2rem; }
+
+  /* Reduce section-head bottom margin */
+  .section-head { margin-bottom: 2.5rem; }
 }
 
 @media (max-width: 480px) {
+  /* Stats: 2 columns on very small screens */
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Hero CTAs stack vertically */
   .hero-cta   { flex-direction: column; width: 100%; }
   .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+
+  /* Pills wrap properly */
+  .hero-pills { gap: 0.4rem; }
+
+  /* Timeline dot size on very small screens */
+  .dot-icon { width: 2.2rem; height: 2.2rem; font-size: 0.95rem; }
+
+  /* Skills: single column */
+  .skills-grid { grid-template-columns: 1fr; }
+
+  /* Cert card text */
+  .cert-title { font-size: 0.8rem; }
+
+  /* Qualification column heads */
+  .qual-col-head h3 { font-size: 1.1rem; }
+
+  /* Section padding tighter */
+  section { padding: 3rem 0; }
+
+  /* Containers: slightly tighter horizontal padding */
+  .container, .container-lg, .container-sm { padding: 0 1rem; }
+
+  /* Contact form padding tighter */
+  .contact-form-wrap { padding: 1.25rem; }
+
+  /* Footer */
+  .footer-info-card { padding: 1.25rem 1rem; }
+  .footer-info-name { font-size: 1.1rem; }
+  .footer-info-bio  { font-size: 0.82rem; }
+
+  /* Comp header: allow year to wrap */
+  .comp-header { flex-wrap: wrap; }
+  .comp-year   { margin-top: 0.35rem; }
 }
 
 /* ══════════════════════════════════════════════════════
@@ -1712,22 +1809,4 @@ footer .footer-glow {
 
 .fic-btn:hover::after { opacity: 0.08; }
 
-/* ── Responsive ────────────────────────────────────── */
-@media (max-width: 768px) {
-  .footer-info-card {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1.75rem 1.5rem;
-    gap: 1.75rem;
-  }
-  .footer-info-right {
-    align-items: flex-start;
-    width: 100%;
-  }
-  .footer-info-icons { justify-content: flex-start; }
-}
 
-@media (max-width: 480px) {
-  .footer-info-name { font-size: 1.1rem; }
-  .footer-info-bio  { font-size: 0.82rem; }
-}
