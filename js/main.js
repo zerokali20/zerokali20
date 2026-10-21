@@ -210,4 +210,173 @@
       icon.style.boxShadow = '';
     });
   });
+
+  /* ── Interactive Image Gallery / Carousel ──────────────── */
+  document.querySelectorAll('[data-gallery]').forEach(gallery => {
+    const slides = gallery.querySelectorAll('.comp-gallery-slide');
+    const dots = gallery.querySelectorAll('.gallery-dot');
+    const badgeText = gallery.querySelector('.gallery-badge-txt');
+    const captionText = gallery.querySelector('.gallery-caption');
+    const prevBtn = gallery.querySelector('.gallery-nav-btn.prev');
+    const nextBtn = gallery.querySelector('.gallery-nav-btn.next');
+    let current = 0;
+
+    function goTo(idx) {
+      if (!slides.length) return;
+      current = (idx + slides.length) % slides.length;
+      slides.forEach((s, i) => s.classList.toggle('active', i === current));
+      dots.forEach((d, i) => d.classList.toggle('active', i === current));
+      if (badgeText) badgeText.textContent = `${current + 1}/${slides.length}`;
+      if (captionText) {
+        const cap = slides[current]?.getAttribute('data-caption') || '';
+        captionText.textContent = cap;
+      }
+    }
+
+    prevBtn?.addEventListener('click', e => {
+      e.stopPropagation();
+      goTo(current - 1);
+    });
+
+    nextBtn?.addEventListener('click', e => {
+      e.stopPropagation();
+      goTo(current + 1);
+    });
+
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', e => {
+        e.stopPropagation();
+        goTo(i);
+      });
+    });
+
+    // Clicking anywhere on the gallery swaps to the next image
+    gallery.addEventListener('click', () => {
+      goTo(current + 1);
+    });
+
+    // Mobile swipe support
+    let touchStartX = 0;
+    gallery.addEventListener('touchstart', e => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    gallery.addEventListener('touchend', e => {
+      const touchEndX = e.changedTouches[0].screenX;
+      if (touchEndX < touchStartX - 40) {
+        goTo(current + 1);
+      } else if (touchEndX > touchStartX + 40) {
+        goTo(current - 1);
+      }
+    }, { passive: true });
+  });
+
+  /* ── Horizontal Timeline Navigation & Scroll/Drag ─────── */
+  const timelineEl = document.getElementById('competition-timeline');
+  const compSection = document.getElementById('competition');
+  const tPrevBtn = document.getElementById('timeline-prev');
+  const tNextBtn = document.getElementById('timeline-next');
+
+  if (timelineEl) {
+    const scrollAmount = 440;
+
+    function updateNavBtns() {
+      const maxScroll = timelineEl.scrollWidth - timelineEl.clientWidth;
+      if (tPrevBtn) {
+        const atStart = timelineEl.scrollLeft <= 8;
+        tPrevBtn.style.opacity = atStart ? '0.4' : '1';
+        tPrevBtn.style.pointerEvents = atStart ? 'none' : 'auto';
+      }
+      if (tNextBtn) {
+        const atEnd = timelineEl.scrollLeft >= maxScroll - 8;
+        tNextBtn.style.opacity = atEnd ? '0.4' : '1';
+        tNextBtn.style.pointerEvents = atEnd ? 'none' : 'auto';
+      }
+    }
+
+    tPrevBtn?.addEventListener('click', () => {
+      timelineEl.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+
+    tNextBtn?.addEventListener('click', () => {
+      timelineEl.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+
+    timelineEl.addEventListener('scroll', updateNavBtns, { passive: true });
+    window.addEventListener('resize', updateNavBtns, { passive: true });
+    updateNavBtns();
+
+    /* ── Translate vertical scroll down/up to horizontal flow ── */
+    const trackWrap = compSection?.querySelector('.timeline-track-wrap') || timelineEl;
+
+    trackWrap.addEventListener('wheel', e => {
+      // If user is already scrolling horizontally via trackpad or shiftKey, allow default
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY) || e.shiftKey) return;
+
+      const maxScroll = timelineEl.scrollWidth - timelineEl.clientWidth;
+      if (maxScroll <= 0) return;
+
+      const atStart = timelineEl.scrollLeft <= 8;
+      const atEnd = timelineEl.scrollLeft >= maxScroll - 8;
+
+      // Scrolling down and not at end: flow smoothly to the right
+      if (e.deltaY > 0 && !atEnd) {
+        e.preventDefault();
+        const delta = Math.abs(e.deltaY) >= 50 ? 380 : e.deltaY * 1.8;
+        timelineEl.scrollBy({ left: delta, behavior: 'smooth' });
+      }
+      // Scrolling up and not at start: flow smoothly to the left
+      else if (e.deltaY < 0 && !atStart) {
+        e.preventDefault();
+        const delta = Math.abs(e.deltaY) >= 50 ? -380 : e.deltaY * 1.8;
+        timelineEl.scrollBy({ left: delta, behavior: 'smooth' });
+      }
+      // If at end and scrolling down, or at start and scrolling up -> let page scroll normally
+    }, { passive: false });
+
+    /* ── Mouse Drag-to-Scroll ───────────────────────────── */
+    let isDown = false;
+    let startX = 0;
+    let scrollStart = 0;
+    let isDragging = false;
+
+    timelineEl.addEventListener('mousedown', e => {
+      // Ignore if clicking buttons, links, or photo gallery controls
+      if (e.target.closest('button, a, input, textarea, .gallery-nav-btn, .gallery-dot')) return;
+      isDown = true;
+      isDragging = false;
+      startX = e.pageX - timelineEl.offsetLeft;
+      scrollStart = timelineEl.scrollLeft;
+      timelineEl.style.scrollBehavior = 'auto';
+    });
+
+    window.addEventListener('mousemove', e => {
+      if (!isDown) return;
+      const x = e.pageX - timelineEl.offsetLeft;
+      const walk = (x - startX) * 1.4;
+      if (Math.abs(walk) > 4) {
+        isDragging = true;
+        timelineEl.style.cursor = 'grabbing';
+      }
+      timelineEl.scrollLeft = scrollStart - walk;
+    });
+
+    const endDrag = () => {
+      if (!isDown) return;
+      isDown = false;
+      timelineEl.style.cursor = 'grab';
+      timelineEl.style.scrollBehavior = 'smooth';
+      setTimeout(() => { isDragging = false; }, 50);
+    };
+
+    window.addEventListener('mouseup', endDrag);
+
+    // Prevent link clicks if user was actively dragging
+    timelineEl.addEventListener('click', e => {
+      if (isDragging) {
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    }, true);
+  }
 })();

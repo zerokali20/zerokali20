@@ -1,999 +1,1341 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Bhagya Karunanayake — Computer Engineering student at University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and Full-Stack Development." />
+  <meta name="description"
+    content="Bhagya Karunanayake — Computer Engineering student at University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and Full-Stack Development." />
   <meta name="author" content="Bhagya Karunanayake" />
-  <meta name="keywords" content="Bhagya Karunanayake, portfolio, computer engineering, AI, ML, cybersecurity, full-stack developer, Sri Lanka" />
+  <meta name="keywords"
+    content="Bhagya Karunanayake, portfolio, computer engineering, AI, ML, cybersecurity, full-stack developer, Sri Lanka" />
   <!-- Open Graph -->
   <meta property="og:title" content="Bhagya Karunanayake — Portfolio" />
-  <meta property="og:description" content="Computer Engineering student passionate about AI/ML, Cybersecurity, Robotics, and innovative full-stack solutions." />
+  <meta property="og:description"
+    content="Computer Engineering student passionate about AI/ML, Cybersecurity, Robotics, and innovative full-stack solutions." />
   <meta property="og:type" content="website" />
   <title>Bhagya Karunanayake — Portfolio</title>
   <!-- Font Awesome 6 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" />
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- ══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
      NAVBAR
 ═══════════════════════════════════════════════════════ -->
-<nav id="navbar" aria-label="Primary navigation">
-  <div class="nav-inner">
+  <nav id="navbar" aria-label="Primary navigation">
+    <div class="nav-inner">
 
-    <!-- Logo -->
-    <a href="#" data-scroll-top aria-label="Bhagya Karunanayake — back to top">
-      <img src="public/images/profile.jpg" alt="Profile" class="nav-profile-img">
-    </a>
+      <!-- Logo -->
+      <a href="#" data-scroll-top aria-label="Bhagya Karunanayake — back to top">
+        <img src="public/images/profile.jpg" alt="Profile" class="nav-profile-img">
+      </a>
 
-    <!-- Desktop links -->
-    <div class="nav-links">
-      <a href="#about"          class="nav-link" data-nav>About</a>
-      <a href="#projects"       class="nav-link" data-nav>Projects</a>
-      <a href="#competition"    class="nav-link" data-nav>Competition</a>
-      <a href="#qualifications" class="nav-link" data-nav>Qualifications</a>
-      <a href="#skills"         class="nav-link" data-nav>Skills</a>
-      <a href="#contact"        class="nav-link" data-nav>Contact</a>
-      <a href="mailto:bhagikaru2003@gmail.com" class="nav-hire">Hire Me</a>
+      <!-- Desktop links -->
+      <div class="nav-links">
+        <a href="#about" class="nav-link" data-nav>About</a>
+        <a href="#projects" class="nav-link" data-nav>Projects</a>
+        <a href="#competition" class="nav-link" data-nav>Competition</a>
+        <a href="#qualifications" class="nav-link" data-nav>Qualifications</a>
+        <a href="#skills" class="nav-link" data-nav>Skills</a>
+        <a href="#contact" class="nav-link" data-nav>Contact</a>
+        <a href="mailto:bhagikaru2003@gmail.com" class="nav-hire">Hire Me</a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button id="mobile-menu-btn" class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
-
-    <!-- Mobile hamburger -->
-    <button id="mobile-menu-btn" class="hamburger" aria-label="Open menu" aria-expanded="false">
-      <i class="fa-solid fa-bars"></i>
-    </button>
-  </div>
-</nav>
-
-<!-- Mobile overlay -->
-<div id="mobile-overlay" aria-hidden="true"></div>
-
-<!-- Mobile drawer -->
-<div id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu">
-  <div class="drawer-header">
-    <span class="drawer-title">Menu</span>
-    <button id="mobile-close-btn" class="drawer-close" aria-label="Close menu">
-      <i class="fa-solid fa-xmark"></i>
-    </button>
-  </div>
-  <nav class="drawer-links">
-    <a href="#about"          class="drawer-link" data-nav>About</a>
-    <a href="#projects"       class="drawer-link" data-nav>Projects</a>
-    <a href="#competition"    class="drawer-link" data-nav>Competition</a>
-    <a href="#qualifications" class="drawer-link" data-nav>Qualifications</a>
-    <a href="#skills"         class="drawer-link" data-nav>Skills</a>
-    <a href="#contact"        class="drawer-link" data-nav>Contact</a>
-    <a href="mailto:bhagikaru2003@gmail.com" class="drawer-hire">Hire Me</a>
   </nav>
-</div>
 
-<main>
+  <!-- Mobile overlay -->
+  <div id="mobile-overlay" aria-hidden="true"></div>
 
-<!-- ══════════════════════════════════════════════════════
+  <!-- Mobile drawer -->
+  <div id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <div class="drawer-header">
+      <span class="drawer-title">Menu</span>
+      <button id="mobile-close-btn" class="drawer-close" aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="drawer-links">
+      <a href="#about" class="drawer-link" data-nav>About</a>
+      <a href="#projects" class="drawer-link" data-nav>Projects</a>
+      <a href="#competition" class="drawer-link" data-nav>Competition</a>
+      <a href="#qualifications" class="drawer-link" data-nav>Qualifications</a>
+      <a href="#skills" class="drawer-link" data-nav>Skills</a>
+      <a href="#contact" class="drawer-link" data-nav>Contact</a>
+      <a href="mailto:bhagikaru2003@gmail.com" class="drawer-hire">Hire Me</a>
+    </nav>
+  </div>
+
+  <main>
+
+    <!-- ══════════════════════════════════════════════════════
      HERO
 ═══════════════════════════════════════════════════════ -->
-<section id="hero" aria-label="Introduction">
-  <canvas id="particles-canvas" aria-hidden="true"></canvas>
-  <div class="hero-gradient" aria-hidden="true"></div>
+    <section id="hero" aria-label="Introduction">
+      <canvas id="particles-canvas" aria-hidden="true"></canvas>
+      <div class="hero-gradient" aria-hidden="true"></div>
 
-  <!-- Floating orbs -->
-  <div class="hero-orbs" aria-hidden="true">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-    <div class="hero-grid"></div>
-  </div>
+      <!-- Floating orbs -->
+      <div class="hero-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="hero-grid"></div>
+      </div>
 
-  <!-- Main content -->
-  <div class="hero-content">
+      <!-- Main content -->
+      <div class="hero-content">
 
-    <!-- Available badge -->
-    <div class="hero-badge">
-      <span class="pulse-dot" aria-hidden="true"></span>
-      Available for opportunities
-    </div>
+        <!-- Available badge -->
+        <div class="hero-badge">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Available for opportunities
+        </div>
 
-    <!-- Name -->
-    <h1 class="hero-name">
-      Bhagya&nbsp;<span class="name-outline">Karunanayake</span>
-    </h1>
+        <!-- Name -->
+        <h1 class="hero-name">
+          Bhagya&nbsp;<span class="name-outline">Karunanayake</span>
+        </h1>
 
-    <!-- Typewriter -->
-    <div class="hero-typewriter" aria-live="polite">
-      <span id="typewriter-text"></span>
-      <span class="typewriter-cursor" aria-hidden="true"></span>
-    </div>
+        <!-- Typewriter -->
+        <div class="hero-typewriter" aria-live="polite">
+          <span id="typewriter-text"></span>
+          <span class="typewriter-cursor" aria-hidden="true"></span>
+        </div>
 
-    <!-- Description -->
-    <p class="hero-desc">
-      Computer Engineering student at <span class="hl">University of Peradeniya</span>, passionate about
-      AI/ML, Cybersecurity, Robotics, and building innovative full-stack solutions.
-    </p>
+        <!-- Description -->
+        <p class="hero-desc">
+          Computer Engineering student at <span class="hl">University of Peradeniya</span>, passionate about
+          AI/ML, Cybersecurity, Robotics, and building innovative full-stack solutions.
+        </p>
 
-    <!-- CTA Buttons -->
-    <div class="hero-cta">
-      <a href="#projects" class="btn-primary">
-        View Projects <span class="arrow" aria-hidden="true">→</span>
+        <!-- CTA Buttons -->
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">
+            View Projects <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+
+        <!-- Tech pills -->
+        <div class="hero-pills" aria-label="Technology stack">
+          <span class="pill">Next.js</span>
+          <span class="pill">TypeScript</span>
+          <span class="pill">Python</span>
+          <span class="pill">AI/ML</span>
+          <span class="pill">C++</span>
+          <span class="pill">Cybersecurity</span>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+        <span class="scroll-label">Scroll</span>
+        <span class="scroll-chevron" aria-hidden="true">
+          <i class="fa-solid fa-chevron-down"></i>
+        </span>
       </a>
-      <a href="#contact" class="btn-outline">Contact Me</a>
-    </div>
-
-    <!-- Tech pills -->
-    <div class="hero-pills" aria-label="Technology stack">
-      <span class="pill">Next.js</span>
-      <span class="pill">TypeScript</span>
-      <span class="pill">Python</span>
-      <span class="pill">AI/ML</span>
-      <span class="pill">C++</span>
-      <span class="pill">Cybersecurity</span>
-    </div>
-  </div>
-
-  <!-- Scroll indicator -->
-  <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
-    <span class="scroll-label">Scroll</span>
-    <span class="scroll-chevron" aria-hidden="true">
-      <i class="fa-solid fa-chevron-down"></i>
-    </span>
-  </a>
-</section>
+    </section>
 
 
-<!-- ══════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════
      ABOUT
 ═══════════════════════════════════════════════════════ -->
-<section id="about" aria-label="About me">
-  <!-- Right bg accent -->
-  <div style="position:absolute;top:0;right:0;width:33%;height:100%;background:linear-gradient(to left,rgba(9,208,160,0.03),transparent);pointer-events:none;" aria-hidden="true"></div>
+    <section id="about" aria-label="About me">
+      <!-- Right bg accent -->
+      <div
+        style="position:absolute;top:0;right:0;width:33%;height:100%;background:linear-gradient(to left,rgba(9,208,160,0.03),transparent);pointer-events:none;"
+        aria-hidden="true"></div>
 
-  <div class="container-lg">
-    <!-- Section heading -->
-    <div class="section-head anim-up">
-      <span class="section-label">Who I Am</span>
-      <h2 class="section-title"><span class="ul">About Me</span></h2>
-    </div>
-
-    <div class="about-grid">
-
-      <!-- Left — Photo + socials + quick contact -->
-      <div class="profile-wrap anim-left">
-
-        <!-- Profile image with spinning ring -->
-        <div class="profile-ring-wrap">
-          <div class="profile-ring-spin" aria-hidden="true"></div>
-          <div class="profile-img-wrap">
-            <img
-              src="public/images/profile.jpg"
-              alt="Bhagya Karunanayake"
-              id="profile-img"
-              onerror="this.style.display='none';document.getElementById('profile-fallback').style.display='flex';"
-            />
-            <div class="profile-fallback" id="profile-fallback" aria-hidden="true">BK</div>
-          </div>
+      <div class="container-lg">
+        <!-- Section heading -->
+        <div class="section-head anim-up">
+          <span class="section-label">Who I Am</span>
+          <h2 class="section-title"><span class="ul">About Me</span></h2>
         </div>
 
-        <!-- Social icons -->
-        <div class="social-icons" aria-label="Social media links">
-          <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="GitHub"
-             data-hover-color="#ffffff">
+        <div class="about-grid">
+
+          <!-- Left — Photo + socials + quick contact -->
+          <div class="profile-wrap anim-left">
+
+            <!-- Profile image with spinning ring -->
+            <div class="profile-ring-wrap">
+              <div class="profile-ring-spin" aria-hidden="true"></div>
+              <div class="profile-img-wrap">
+                <img src="public/images/profile.jpg" alt="Bhagya Karunanayake" id="profile-img"
+                  onerror="this.style.display='none';document.getElementById('profile-fallback').style.display='flex';" />
+                <div class="profile-fallback" id="profile-fallback" aria-hidden="true">BK</div>
+              </div>
+            </div>
+
+            <!-- Social icons -->
+            <div class="social-icons" aria-label="Social media links">
+              <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="social-icon"
+                aria-label="GitHub" data-hover-color="#ffffff">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank"
+                rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" data-hover-color="#0A66C2">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+                class="social-icon" aria-label="Instagram" data-hover-color="#E1306C">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+                class="social-icon" aria-label="Facebook" data-hover-color="#1877F2">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+                class="social-icon" aria-label="TryHackMe" data-hover-color="#212C42">
+                <i class="fa-solid fa-shield-halved"></i>
+              </a>
+              <a href="https://orcid.org/0009-0004-3122-6421" target="_blank" rel="noopener noreferrer"
+                class="social-icon" aria-label="ORCID" data-hover-color="#A6CE39">
+                <i class="fa-brands fa-orcid"></i>
+              </a>
+            </div>
+
+            <!-- Quick contact -->
+            <address class="quick-contact" style="font-style:normal;">
+              <div class="contact-row">
+                <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
+                <span>Mirigama, Gampaha, Sri Lanka</span>
+              </div>
+              <div class="contact-row">
+                <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
+                <span>bhagikaru2003@gmail.com</span>
+              </div>
+              <div class="contact-row">
+                <i class="fa-solid fa-phone icon" aria-hidden="true"></i>
+                <span>+94 763263100</span>
+              </div>
+            </address>
+
+          </div><!-- /Left -->
+
+          <!-- Right — Bio -->
+          <div class="about-bio" data-stagger>
+
+            <div>
+              <h3>Hi, I'm Bhagya 👋</h3>
+              <p class="university font-mono">University of Peradeniya, Sri Lanka</p>
+              <p style="margin-top:0.75rem;">
+                "Sometimes it takes a mistake to learn from it." Currently studying Computer Engineering
+                at the University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and
+                building innovative full-stack solutions.
+              </p>
+            </div>
+
+            <!-- Interests -->
+            <div class="tags">
+              <span class="tag">AI / ML</span>
+              <span class="tag">Cybersecurity</span>
+              <span class="tag">Robotics</span>
+              <span class="tag">Full-Stack Dev</span>
+              <span class="tag">Open Source</span>
+              <span class="tag">Cloud</span>
+            </div>
+
+            <!-- Fun fact -->
+            <div class="fun-fact">
+              <p class="fun-fact-label">Fun Fact</p>
+              <p>"All models are wrong, but some are useful!"</p>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-icon">📦</div>
+                <div class="stat-value">55+</div>
+                <div class="stat-label">Repositories</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-value">35+</div>
+                <div class="stat-label">Followers</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">🤖</div>
+                <div class="stat-value">AI/ML</div>
+                <div class="stat-label">Focus Area</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">🔐</div>
+                <div class="stat-value">CTF</div>
+                <div class="stat-label">Cybersecurity</div>
+              </div>
+            </div>
+
+          </div><!-- /Right -->
+        </div><!-- /grid -->
+      </div><!-- /container -->
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+     PROJECTS
+═══════════════════════════════════════════════════════ -->
+    <section id="projects" aria-label="Featured projects">
+      <div class="container-lg">
+
+        <div class="section-head anim-up">
+          <span class="section-label">What I've Built</span>
+          <h2 class="section-title"><span class="ul">Featured Projects</span></h2>
+          <p class="section-sub">A selection of projects spanning AI/ML, systems programming, robotics, and web
+            development.</p>
+        </div>
+
+        <div class="projects-grid" data-stagger>
+
+          <!-- 1. panopticon-tiramisu -->
+          <article class="project-card" data-glow-color="#EF4444" aria-label="panopticon-tiramisu project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#EF4444,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(239,68,68,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.25);">🛡️</div>
+              <h3 class="project-title">panopticon-tiramisu</h3>
+              <p class="project-subtitle">2026 — Present</p>
+              <p class="project-desc">Panopticon is an on-device, multi-agent AI system designed to combat the
+                escalating threat of voice phishing (vishing) and deepfake audio manipulation. It integrates real-time
+                audio perception, autonomous reasoning, and proactive user intervention to neutralize social engineering
+                attacks by acting as an objective, logical evaluator during high-stress communications.</p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">AI /
+                  ML</span>
+                <span class="tech-badge"
+                  style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">Multi-Agent
+                  System</span>
+                <span class="tech-badge"
+                  style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">Security</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/zerokali20/panopticon-tiramisu" target="_blank" rel="noopener noreferrer"
+                  class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Forensic-Medicine-Database -->
+          <article class="project-card" data-glow-color="#10B981" aria-label="Forensic-Medicine-Database project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#10B981,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(16,185,129,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.25);">🏥</div>
+              <h3 class="project-title">Forensic-Medicine-Database</h3>
+              <p class="project-subtitle">2026 — Present</p>
+              <p class="project-desc">Forensic database management system integration for University of Peradeniya,
+                Faculty of Medicine. Handles forensic records efficiently and securely.</p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Database</span>
+                <span class="tech-badge"
+                  style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Management
+                  System</span>
+                <span class="tech-badge"
+                  style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Integration</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/zerokali20/Forensic-Medicine-Database" target="_blank"
+                  rel="noopener noreferrer" class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Travel Bokka -->
+          <article class="project-card" data-glow-color="#A855F7" aria-label="Travel Bokka project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#A855F7,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(168,85,247,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.25);">🧭</div>
+              <h3 class="project-title">Travel Bokka</h3>
+              <p class="project-subtitle">2026 — AGENTRIX Hackathon</p>
+              <p class="project-desc">A travel-companion application designed to help independent travelers navigate the
+                volatile local transit systems and cultural nuances of Sri Lanka. Built for AGENTRIX 2026 by Team
+                Tiramissu to serve as a resilient, offline-capable fallback.</p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Travel</span>
+                <span class="tech-badge"
+                  style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Offline-Capable</span>
+                <span class="tech-badge"
+                  style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Hackathon</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Agentrix-ComES/AGENTRIX26-TEAM06-Tiramissu" target="_blank"
+                  rel="noopener noreferrer" class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. PERA-SAM -->
+          <article class="project-card" data-glow-color="#09D0A0" aria-label="PERA-SAM project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#09D0A0,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(9,208,160,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(9,208,160,0.15);border:1px solid rgba(9,208,160,0.25);">🎵</div>
+              <h3 class="project-title">PERA-SAM</h3>
+              <p class="project-subtitle">2nd Year Project — Team Invictus</p>
+              <p class="project-desc">ML-powered software solution for sound analysis developed as a 2YP at University
+                of Peradeniya. Addresses societal needs using machine learning on audio data. Built with Team Invictus.
+              </p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">TypeScript</span>
+                <span class="tech-badge"
+                  style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Machine
+                  Learning</span>
+                <span class="tech-badge"
+                  style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Audio
+                  Analysis</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/zerokali20/e22-co2060-PERA-SAM" target="_blank" rel="noopener noreferrer"
+                  class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. 4lG0ciTy -->
+          <article class="project-card" data-glow-color="#1A1A8A" aria-label="4lG0ciTy project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#1A1A8A,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(26,26,138,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(26,26,138,0.2);border:1px solid rgba(26,26,138,0.3);">🏙️</div>
+              <h3 class="project-title">4lG0ciTy</h3>
+              <p class="project-subtitle">City Infrastructure Simulator</p>
+              <p class="project-desc">Terminal/GUI-based city infrastructure simulator using Trees, Graphs, and Hash
+                Tables for managing records, road/power networks, and instant data lookup.</p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">C++</span>
+                <span class="tech-badge"
+                  style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Data
+                  Structures</span>
+                <span class="tech-badge"
+                  style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Algorithms</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/zerokali20/4lG0ciTy" target="_blank" rel="noopener noreferrer"
+                  class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+
+
+          <!-- 6. libtiny3d -->
+          <article class="project-card" data-glow-color="#F59E0B" aria-label="libtiny3d project">
+            <div class="project-top-bar" style="background:linear-gradient(90deg,#F59E0B,transparent);"></div>
+            <div class="project-hover-glow"
+              style="background:radial-gradient(ellipse at 50% 0%,rgba(245,158,11,0.12),transparent 60%);"></div>
+            <div class="project-body">
+              <div class="project-icon-wrap"
+                style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.25);">🎮</div>
+              <h3 class="project-title">libtiny3d</h3>
+              <p class="project-subtitle">Open Source Contributor</p>
+              <p class="project-desc">A lightweight 3D software renderer library written in C. Contributed to this
+                open-source project, adding features and improving the rendering pipeline.</p>
+              <div class="project-tech">
+                <span class="tech-badge"
+                  style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">C</span>
+                <span class="tech-badge"
+                  style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">3D
+                  Rendering</span>
+                <span class="tech-badge"
+                  style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">Open
+                  Source</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/GayashaSandeepa/libtiny3d" target="_blank" rel="noopener noreferrer"
+                  class="project-btn">
+                  <i class="fa-brands fa-github"></i> Source
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+
+        <!-- View all button -->
+        <div class="projects-footer anim-up">
+          <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="btn-github">
             <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="LinkedIn"
-             data-hover-color="#0A66C2">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="Instagram"
-             data-hover-color="#E1306C">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="Facebook"
-             data-hover-color="#1877F2">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
-          <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="TryHackMe"
-             data-hover-color="#212C42">
-            <i class="fa-solid fa-shield-halved"></i>
-          </a>
-          <a href="https://orcid.org/0009-0004-3122-6421" target="_blank" rel="noopener noreferrer"
-             class="social-icon" aria-label="ORCID"
-             data-hover-color="#A6CE39">
-            <i class="fa-brands fa-orcid"></i>
+            View All on GitHub
           </a>
         </div>
 
-        <!-- Quick contact -->
-        <address class="quick-contact" style="font-style:normal;">
-          <div class="contact-row">
-            <i class="fa-solid fa-location-dot icon" aria-hidden="true"></i>
-            <span>Mirigama, Gampaha, Sri Lanka</span>
-          </div>
-          <div class="contact-row">
-            <i class="fa-solid fa-envelope icon" aria-hidden="true"></i>
-            <span>bhagikaru2003@gmail.com</span>
-          </div>
-          <div class="contact-row">
-            <i class="fa-solid fa-phone icon" aria-hidden="true"></i>
-            <span>+94 763263100</span>
-          </div>
-        </address>
+      </div><!-- /container -->
+    </section>
 
-      </div><!-- /Left -->
 
-      <!-- Right — Bio -->
-      <div class="about-bio" data-stagger>
+    <!-- ══════════════════════════════════════════════════════
+     COMPETITION
+═══════════════════════════════════════════════════════ -->
+    <section id="competition" aria-label="Competitions and achievements">
+      <div class="bg-accent" aria-hidden="true"></div>
 
-        <div>
-          <h3>Hi, I'm Bhagya 👋</h3>
-          <p class="university font-mono">University of Peradeniya, Sri Lanka</p>
-          <p style="margin-top:0.75rem;">
-            "Sometimes it takes a mistake to learn from it." Currently studying Computer Engineering
-            at the University of Peradeniya. Passionate about AI/ML, Cybersecurity, Robotics, and
-            building innovative full-stack solutions.
+      <div class="container-lg">
+
+        <div class="section-head anim-up"
+          style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:1.2rem;">
+          <div>
+            <span class="section-label">Achievements</span>
+            <h2 class="section-title"><span class="ul">Competitions &amp; Events</span></h2>
+            <p class="section-sub">Challenges, contests, and hackathons that have shaped my skills and experience.</p>
+          </div>
+          <div class="timeline-nav-group">
+            <div class="timeline-nav-btns">
+              <button type="button" class="timeline-nav-btn prev" id="timeline-prev" aria-label="Previous achievement"
+                title="Scroll left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button type="button" class="timeline-nav-btn next" id="timeline-next" aria-label="Next achievement"
+                title="Scroll right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-track-wrap">
+          <div class="timeline" id="competition-timeline">
+
+            <!-- 1. Mora SP Cup 2026 - Grand Finale Top 8 -->
+            <div class="timeline-item anim-up">
+              <div class="timeline-dot">
+                <div class="dot-icon"
+                  style="background:linear-gradient(135deg,rgba(6,182,212,0.25),rgba(6,182,212,0.08));border-color:rgba(6,182,212,0.5);box-shadow:0 0 20px rgba(6,182,212,0.25);">
+                  🔬</div>
+                <div class="timeline-node-info">
+                  <span class="timeline-node-year">2026</span>
+                  <span class="timeline-node-badge" style="color:#06b6d4;">Grand Finale (Top 8)</span>
+                </div>
+              </div>
+              <div class="timeline-card">
+                <div class="comp-header">
+                  <div>
+                    <h3 class="comp-title">Mora SP Cup 2026 — Grand Finale</h3>
+                    <p class="comp-org" style="color:#06b6d4;">University of Moratuwa • Dept. of Electronic &amp;
+                      Telecommunication Engineering</p>
+                  </div>
+                  <span class="comp-year">2026</span>
+                </div>
+                <p class="comp-desc">
+                  Selected among the <b>Top 8 Teams</b> to reach the <b>Grand Finale</b> of <b>Mora SP Cup 2026</b> with
+                  <b>Team SENTINELS</b>. Tackled the <b>Low-Light Image Denoising Challenge</b> to restore high-quality
+                  visual outputs from severely degraded, noisy low-light inputs with structural loss.
+                </p>
+
+                <!-- Interactive Image Swapper / Gallery Box -->
+                <div class="comp-gallery" data-gallery title="Click to swap between award and presentation photo">
+                  <div class="comp-gallery-slides">
+                    <div class="comp-gallery-slide active"
+                      data-caption="Grand Finale — Top 8 Finalist Certificate of Excellence">
+                      <img src="public/images/moraspcup-1.jpg"
+                        alt="Team SENTINELS at Mora SP Cup 2026 Grand Finale Award" loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide"
+                      data-caption="Grand Finale — Technical Presentation &amp; Pitch Session">
+                      <img src="public/images/moraspcup-2.jpg" alt="Presenting at Mora SP Cup 2026 Grand Finale"
+                        loading="lazy" />
+                    </div>
+                  </div>
+
+                  <!-- Navigation Chevrons -->
+                  <button type="button" class="gallery-nav-btn prev" aria-label="Previous photo" title="Previous photo">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button type="button" class="gallery-nav-btn next" aria-label="Next photo" title="Next photo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+
+                  <!-- Footer overlay with caption and dot indicators -->
+                  <div class="gallery-overlay-footer">
+                    <div class="gallery-caption">Grand Finale — Top 8 Finalist Certificate of Excellence</div>
+                    <div class="gallery-dots">
+                      <button type="button" class="gallery-dot active" aria-label="Photo 1"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 2"></button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Action Links -->
+                <div class="card-action-links">
+                  <a href="https://lnkd.in/grAyjfJv" target="_blank" rel="noopener noreferrer" class="comp-link"
+                    style="color:#06b6d4; margin-top:0;">
+                    Technical Work <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i>
+                  </a>
+                  <a href="https://lnkd.in/p/gVcZRBi4" target="_blank" rel="noopener noreferrer" class="comp-link"
+                    style="color:#38bdf8; margin-top:0;">
+                    LinkedIn Post <i class="fa-brands fa-linkedin" style="font-size:0.8rem;"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- 2. Aurora 2026 - AI IDEATHON -->
+            <div class="timeline-item anim-up">
+              <div class="timeline-dot">
+                <div class="dot-icon"
+                  style="background:linear-gradient(135deg,rgba(9,208,160,0.25),rgba(9,208,160,0.08));border-color:rgba(9,208,160,0.5);box-shadow:0 0 20px rgba(9,208,160,0.25);">
+                  🏆</div>
+                <div class="timeline-node-info">
+                  <span class="timeline-node-year">2026</span>
+                  <span class="timeline-node-badge" style="color:#09D0A0;">Ideathon Winner</span>
+                </div>
+              </div>
+              <div class="timeline-card">
+                <div class="comp-header">
+                  <div>
+                    <h3 class="comp-title">Aurora 2026 - AI IDEATHON</h3>
+                    <p class="comp-org" style="color:#09D0A0;">Aurora 2026</p>
+                  </div>
+                  <span class="comp-year">2026</span>
+                </div>
+                <p class="comp-desc">Selected for the final top 10 out of 60+ proposals and won the final round.
+                  Developed
+                  <b>panopticon-tiramisu</b> - an on-device, multi-agent AI system to combat voice phishing and
+                  deepfakes.
+                </p>
+                <!-- Interactive Image Swapper / Gallery Box -->
+                <div class="comp-gallery emerald" data-gallery title="Click to swap photo">
+                  <div class="comp-gallery-slides">
+                    <div class="comp-gallery-slide active" data-caption="Aurora 2026 — AI Ideathon Champions (Winners)">
+                      <img src="public/images/aurora-win.jpg" alt="Aurora 2026 AI Ideathon Champions with Winners Check"
+                        loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide" data-caption="Aurora 2026 — University Competition Finals Team">
+                      <img src="public/images/aurora-1.jpg" alt="Team at Aurora 2026 AI Ideathon Finals"
+                        loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide" data-caption="Aurora 2026 — Product Pitch &amp; Live Demonstration">
+                      <img src="public/images/aurora-2.jpg" alt="Presenting and demoing Panopticon at Aurora 2026"
+                        loading="lazy" />
+                    </div>
+                  </div>
+
+                  <!-- Navigation Chevrons -->
+                  <button type="button" class="gallery-nav-btn prev" aria-label="Previous photo" title="Previous photo">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button type="button" class="gallery-nav-btn next" aria-label="Next photo" title="Next photo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+
+                  <!-- Footer overlay with caption and dot indicators -->
+                  <div class="gallery-overlay-footer">
+                    <div class="gallery-caption">Aurora 2026 — AI Ideathon Champions (Winners)</div>
+                    <div class="gallery-dots">
+                      <button type="button" class="gallery-dot active" aria-label="Photo 1"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 2"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 3"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-action-links">
+                  <a href="https://www.linkedin.com/posts/bhagya-karunanayake-b52085270_auroraai2026-ideathon-agenticai-ugcPost-7484819669502164992-JC8o/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEI38C4BEmX2qCbbZ8wzjLxE38KtLw1ynwI"
+                    target="_blank" rel="noopener noreferrer" class="comp-link" style="color:#09D0A0;">
+                    View Source (LinkedIn) <i class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size:0.7rem;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Agentrix 2026 -->
+            <div class="timeline-item anim-up">
+              <div class="timeline-dot">
+                <div class="dot-icon"
+                  style="background:linear-gradient(135deg,rgba(168,85,247,0.25),rgba(168,85,247,0.08));border-color:rgba(168,85,247,0.5);box-shadow:0 0 20px rgba(168,85,247,0.25);">
+                  🚀</div>
+                <div class="timeline-node-info">
+                  <span class="timeline-node-year">2026</span>
+                  <span class="timeline-node-badge" style="color:#A855F7;">12h Hackathon</span>
+                </div>
+              </div>
+              <div class="timeline-card">
+                <div class="comp-header">
+                  <div>
+                    <h3 class="comp-title">Agentrix 2026 - 12 Hour Hackathon</h3>
+                    <p class="comp-org" style="color:#A855F7;">University of Ruhuna</p>
+                  </div>
+                  <span class="comp-year">2026</span>
+                </div>
+                <p class="comp-desc">Placed 12th out of 40 teams. Developed <b>Travel Bokka</b> - a resilient tourism
+                  and
+                  cultural navigator app for Sri Lanka within 12 hours.</p>
+                <!-- Interactive Image Swapper / Gallery Box -->
+                <div class="comp-gallery purple" data-gallery title="Click to swap photo">
+                  <div class="comp-gallery-slides">
+                    <div class="comp-gallery-slide active" data-caption="Agentrix 2026 — Team Tiramissu (Travel Bokka)">
+                      <img src="public/images/Agentrix.jpeg" alt="Agentrix 2026 Team Tiramissu" loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide"
+                      data-caption="Agentrix 2026 — 12-Hour Sprint &amp; Technical Implementation">
+                      <img src="public/images/agentrix-hack-1.jpg" alt="Agentrix 2026 Hackathon Sprint Session"
+                        loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide" data-caption="Agentrix 2026 — Live Hackathon Development Session">
+                      <img src="public/images/agentrix-hack-2.jpg" alt="Agentrix 2026 Live Development Session"
+                        loading="lazy" />
+                    </div>
+                  </div>
+
+                  <!-- Navigation Chevrons -->
+                  <button type="button" class="gallery-nav-btn prev" aria-label="Previous photo" title="Previous photo">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button type="button" class="gallery-nav-btn next" aria-label="Next photo" title="Next photo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+
+                  <!-- Footer overlay with caption and dot indicators -->
+                  <div class="gallery-overlay-footer">
+                    <div class="gallery-caption">Agentrix 2026 — Team Tiramissu (Travel Bokka)</div>
+                    <div class="gallery-dots">
+                      <button type="button" class="gallery-dot active" aria-label="Photo 1"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 2"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 3"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-action-links">
+                  <a href="https://github.com/zerokali20/AGENTRIX26-TEAM06-Tiramissu" target="_blank"
+                    rel="noopener noreferrer" class="comp-link" style="color:#A855F7;">
+                    View Source (GitHub) <i class="fa-brands fa-github"
+                      style="font-size:0.7rem; margin-left:0.3rem;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Team Invictus -->
+            <div class="timeline-item anim-up">
+              <div class="timeline-dot">
+                <div class="dot-icon"
+                  style="background:linear-gradient(135deg,rgba(96,96,208,0.25),rgba(96,96,208,0.08));border-color:rgba(96,96,208,0.5);box-shadow:0 0 20px rgba(96,96,208,0.25);">
+                  🎓</div>
+                <div class="timeline-node-info">
+                  <span class="timeline-node-year">2024</span>
+                  <span class="timeline-node-badge" style="color:#818cf8;">2YP Project</span>
+                </div>
+              </div>
+              <div class="timeline-card">
+                <div class="comp-header">
+                  <div>
+                    <h3 class="comp-title">Team Invictus — CO2060 2YP</h3>
+                    <p class="comp-org" style="color:#6060d0;">University of Peradeniya</p>
+                  </div>
+                  <span class="comp-year">2024</span>
+                </div>
+                <p class="comp-desc">Led as part of Team Invictus in the CO2060 Second Year Project. Designed and
+                  developed PERA-SAM, a complete software system for ML-based audio analysis addressing real societal
+                  challenges.</p>
+                <!-- Interactive Image Swapper / Gallery Box -->
+                <div class="comp-gallery indigo" data-gallery title="Click to swap photo">
+                  <div class="comp-gallery-slides">
+                    <div class="comp-gallery-slide active" data-caption="Team Invictus — PERA-SAM System Presentation">
+                      <img src="public/images/invictus.jpg" alt="Team Invictus PERA-SAM Presentation" loading="lazy" />
+                    </div>
+                    <div class="comp-gallery-slide" data-caption="Team Invictus — Presentation Day Team Session">
+                      <img src="public/images/invictus-2.jpg" alt="Team Invictus Presentation Day" style="object-position: center 20%;" loading="lazy" />
+                    </div>
+                  </div>
+
+                  <!-- Navigation Chevrons -->
+                  <button type="button" class="gallery-nav-btn prev" aria-label="Previous photo" title="Previous photo">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button type="button" class="gallery-nav-btn next" aria-label="Next photo" title="Next photo">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+
+                  <!-- Footer overlay with caption and dot indicators -->
+                  <div class="gallery-overlay-footer">
+                    <div class="gallery-caption">Team Invictus — PERA-SAM System Presentation</div>
+                    <div class="gallery-dots">
+                      <button type="button" class="gallery-dot active" aria-label="Photo 1"></button>
+                      <button type="button" class="gallery-dot" aria-label="Photo 2"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-action-links">
+                  <a href="https://proud-glacier-05c9fb600.7.azurestaticapps.net/" target="_blank"
+                    rel="noopener noreferrer" class="comp-link" style="color:#6060d0;">
+                    Visit Website <i class="fa-solid fa-arrow-up-right-from-square"
+                      style="font-size:0.7rem; margin-left:0.3rem;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. TryHackMe -->
+            <div class="timeline-item anim-up">
+              <div class="timeline-dot">
+                <div class="dot-icon"
+                  style="background:linear-gradient(135deg,rgba(167,139,250,0.25),rgba(167,139,250,0.08));border-color:rgba(167,139,250,0.5);box-shadow:0 0 20px rgba(167,139,250,0.25);">
+                  🔐</div>
+                <div class="timeline-node-info">
+                  <span class="timeline-node-year">2023–Present</span>
+                  <span class="timeline-node-badge" style="color:#a78bfa;">Cybersecurity</span>
+                </div>
+              </div>
+              <div class="timeline-card">
+                <div class="comp-header">
+                  <div>
+                    <h3 class="comp-title">TryHackMe Challenges</h3>
+                    <p class="comp-org" style="color:#a78bfa;">TryHackMe</p>
+                  </div>
+                  <span class="comp-year">2023–Present</span>
+                </div>
+                <p class="comp-desc">Active participant in CTF (Capture the Flag) challenges and cybersecurity rooms
+                  including Intro to Security Engineering, Networking Concepts, and Linux fundamentals.</p>
+
+                <!-- Cyber Graphic Block matching image height of other cards -->
+                <div
+                  style="margin-top:1rem; border-radius:8px; overflow:hidden; border:1px dashed rgba(167,139,250,0.4); background:rgba(167,139,250,0.06); height:190px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:0.6rem; text-align:center; padding:1rem;">
+                  <div
+                    style="width:3.2rem; height:3.2rem; border-radius:50%; background:rgba(167,139,250,0.15); display:flex; align-items:center; justify-content:center; border:1px solid rgba(167,139,250,0.35);">
+                    <i class="fa-solid fa-shield-halved" style="font-size:1.6rem; color:#a78bfa;"></i>
+                  </div>
+                  <span style="font-family:var(--font-m); font-size:0.85rem; color:#e2e8f0; font-weight:600;">TryHackMe
+                    · CTF Solver</span>
+                  <span style="font-size:0.75rem; color:#9ca3af; max-width:240px;">Security Engineering &amp; Defensive
+                    / Offensive Networking</span>
+                </div>
+
+                <div class="card-action-links">
+                  <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+                    class="comp-link" style="color:#a78bfa;">
+                    View Profile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /timeline -->
+        </div><!-- /timeline-track-wrap -->
+
+
+
+      </div><!-- /container -->
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+     QUALIFICATIONS
+═══════════════════════════════════════════════════════ -->
+    <section id="qualifications" aria-label="Education, Experience, and Certifications">
+      <div class="container-sm">
+
+        <div class="section-head anim-up">
+          <span class="section-label">My Journey</span>
+          <h2 class="section-title"><span class="ul">Qualifications</span></h2>
+          <p class="section-sub">Education background, professional experience, and certifications earned along the way.
           </p>
         </div>
 
-        <!-- Interests -->
-        <div class="tags">
-          <span class="tag">AI / ML</span>
-          <span class="tag">Cybersecurity</span>
-          <span class="tag">Robotics</span>
-          <span class="tag">Full-Stack Dev</span>
-          <span class="tag">Open Source</span>
-          <span class="tag">Cloud</span>
-        </div>
+        <div class="qual-grid">
 
-        <!-- Fun fact -->
-        <div class="fun-fact">
-          <p class="fun-fact-label">Fun Fact</p>
-          <p>"All models are wrong, but some are useful!"</p>
-        </div>
-
-        <!-- Stats -->
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-icon">📦</div>
-            <div class="stat-value">36+</div>
-            <div class="stat-label">Repositories</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">👥</div>
-            <div class="stat-value">32</div>
-            <div class="stat-label">Followers</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">🤖</div>
-            <div class="stat-value">AI/ML</div>
-            <div class="stat-label">Focus Area</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-icon">🔐</div>
-            <div class="stat-value">CTF</div>
-            <div class="stat-label">Cybersecurity</div>
-          </div>
-        </div>
-
-      </div><!-- /Right -->
-    </div><!-- /grid -->
-  </div><!-- /container -->
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════
-     PROJECTS
-═══════════════════════════════════════════════════════ -->
-<section id="projects" aria-label="Featured projects">
-  <div class="container-lg">
-
-    <div class="section-head anim-up">
-      <span class="section-label">What I've Built</span>
-      <h2 class="section-title"><span class="ul">Featured Projects</span></h2>
-      <p class="section-sub">A selection of projects spanning AI/ML, systems programming, robotics, and web development.</p>
-    </div>
-
-    <div class="projects-grid" data-stagger>
-
-      <!-- 1. panopticon-tiramisu -->
-      <article class="project-card" data-glow-color="#EF4444" aria-label="panopticon-tiramisu project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#EF4444,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(239,68,68,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.25);">🛡️</div>
-          <h3 class="project-title">panopticon-tiramisu</h3>
-          <p class="project-subtitle">2026 — Present</p>
-          <p class="project-desc">Panopticon is an on-device, multi-agent AI system designed to combat the escalating threat of voice phishing (vishing) and deepfake audio manipulation. It integrates real-time audio perception, autonomous reasoning, and proactive user intervention to neutralize social engineering attacks by acting as an objective, logical evaluator during high-stress communications.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">AI / ML</span>
-            <span class="tech-badge" style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">Multi-Agent System</span>
-            <span class="tech-badge" style="background:rgba(239,68,68,0.12);color:#f87171;border:1px solid rgba(239,68,68,0.2);">Security</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/zerokali20/panopticon-tiramisu" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- 2. Forensic-Medicine-Database -->
-      <article class="project-card" data-glow-color="#10B981" aria-label="Forensic-Medicine-Database project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#10B981,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(16,185,129,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.25);">🏥</div>
-          <h3 class="project-title">Forensic-Medicine-Database</h3>
-          <p class="project-subtitle">2026 — Present</p>
-          <p class="project-desc">Forensic database management system integration for University of Peradeniya, Faculty of Medicine. Handles forensic records efficiently and securely.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Database</span>
-            <span class="tech-badge" style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Management System</span>
-            <span class="tech-badge" style="background:rgba(16,185,129,0.12);color:#34d399;border:1px solid rgba(16,185,129,0.2);">Integration</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/zerokali20/Forensic-Medicine-Database" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- 3. Travel Bokka -->
-      <article class="project-card" data-glow-color="#A855F7" aria-label="Travel Bokka project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#A855F7,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(168,85,247,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(168,85,247,0.15);border:1px solid rgba(168,85,247,0.25);">🧭</div>
-          <h3 class="project-title">Travel Bokka</h3>
-          <p class="project-subtitle">2026 — AGENTRIX Hackathon</p>
-          <p class="project-desc">A travel-companion application designed to help independent travelers navigate the volatile local transit systems and cultural nuances of Sri Lanka. Built for AGENTRIX 2026 by Team Tiramissu to serve as a resilient, offline-capable fallback.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Travel</span>
-            <span class="tech-badge" style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Offline-Capable</span>
-            <span class="tech-badge" style="background:rgba(168,85,247,0.12);color:#c084fc;border:1px solid rgba(168,85,247,0.2);">Hackathon</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/Agentrix-ComES/AGENTRIX26-TEAM06-Tiramissu" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- 4. PERA-SAM -->
-      <article class="project-card" data-glow-color="#09D0A0" aria-label="PERA-SAM project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#09D0A0,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(9,208,160,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(9,208,160,0.15);border:1px solid rgba(9,208,160,0.25);">🎵</div>
-          <h3 class="project-title">PERA-SAM</h3>
-          <p class="project-subtitle">2nd Year Project — Team Invictus</p>
-          <p class="project-desc">ML-powered software solution for sound analysis developed as a 2YP at University of Peradeniya. Addresses societal needs using machine learning on audio data. Built with Team Invictus.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">TypeScript</span>
-            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Machine Learning</span>
-            <span class="tech-badge" style="background:rgba(9,208,160,0.12);color:#09D0A0;border:1px solid rgba(9,208,160,0.2);">Audio Analysis</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/zerokali20/e22-co2060-PERA-SAM" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- 5. 4lG0ciTy -->
-      <article class="project-card" data-glow-color="#1A1A8A" aria-label="4lG0ciTy project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#1A1A8A,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(26,26,138,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(26,26,138,0.2);border:1px solid rgba(26,26,138,0.3);">🏙️</div>
-          <h3 class="project-title">4lG0ciTy</h3>
-          <p class="project-subtitle">City Infrastructure Simulator</p>
-          <p class="project-desc">Terminal/GUI-based city infrastructure simulator using Trees, Graphs, and Hash Tables for managing records, road/power networks, and instant data lookup.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">C++</span>
-            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Data Structures</span>
-            <span class="tech-badge" style="background:rgba(26,26,138,0.15);color:#6060d0;border:1px solid rgba(26,26,138,0.3);">Algorithms</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/zerokali20/4lG0ciTy" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-
-
-      <!-- 6. libtiny3d -->
-      <article class="project-card" data-glow-color="#F59E0B" aria-label="libtiny3d project">
-        <div class="project-top-bar" style="background:linear-gradient(90deg,#F59E0B,transparent);"></div>
-        <div class="project-hover-glow" style="background:radial-gradient(ellipse at 50% 0%,rgba(245,158,11,0.12),transparent 60%);"></div>
-        <div class="project-body">
-          <div class="project-icon-wrap" style="background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.25);">🎮</div>
-          <h3 class="project-title">libtiny3d</h3>
-          <p class="project-subtitle">Open Source Contributor</p>
-          <p class="project-desc">A lightweight 3D software renderer library written in C. Contributed to this open-source project, adding features and improving the rendering pipeline.</p>
-          <div class="project-tech">
-            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">C</span>
-            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">3D Rendering</span>
-            <span class="tech-badge" style="background:rgba(245,158,11,0.12);color:#fbbf24;border:1px solid rgba(245,158,11,0.2);">Open Source</span>
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/GayashaSandeepa/libtiny3d" target="_blank" rel="noopener noreferrer" class="project-btn">
-              <i class="fa-brands fa-github"></i> Source
-            </a>
-          </div>
-        </div>
-      </article>
-
-    </div><!-- /projects-grid -->
-
-    <!-- View all button -->
-    <div class="projects-footer anim-up">
-      <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="btn-github">
-        <i class="fa-brands fa-github"></i>
-        View All on GitHub
-      </a>
-    </div>
-
-  </div><!-- /container -->
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════
-     COMPETITION
-═══════════════════════════════════════════════════════ -->
-<section id="competition" aria-label="Competitions and achievements">
-  <div class="bg-accent" aria-hidden="true"></div>
-
-  <div class="container-sm">
-
-    <div class="section-head anim-up">
-      <span class="section-label">Achievements</span>
-      <h2 class="section-title"><span class="ul">Competitions &amp; Events</span></h2>
-      <p class="section-sub">Challenges, contests, and hackathons that have shaped my skills and experience.</p>
-    </div>
-
-    <div class="timeline">
-
-      <!-- 1. Aurora 2026 - AI IDEATHON -->
-      <div class="timeline-item anim-left">
-        <div class="timeline-card">
-          <div class="comp-header">
-            <div>
-              <h3 class="comp-title">Aurora 2026 - AI IDEATHON</h3>
-              <p class="comp-org" style="color:#09D0A0;">Aurora 2026</p>
+          <!-- Education -->
+          <div class="anim-left">
+            <div class="qual-col-head">
+              <div class="qual-col-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
+                <i class="fa-solid fa-graduation-cap" style="color:#09D0A0;"></i>
+              </div>
+              <h3>Education</h3>
             </div>
-            <span class="comp-year">2026</span>
-          </div>
-          <p class="comp-desc">Selected for the final top 10 out of 60+ proposals and won the final round. Developed <b>panopticon-tiramisu</b> - an on-device, multi-agent AI system to combat voice phishing and deepfakes.</p>
-          <a href="https://www.linkedin.com/posts/bhagya-karunanayake-b52085270_auroraai2026-ideathon-agenticai-ugcPost-7484819669502164992-JC8o/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEI38C4BEmX2qCbbZ8wzjLxE38KtLw1ynwI" target="_blank" rel="noopener noreferrer" style="display:block; margin-top:1rem; border-radius: 8px; overflow: hidden; border: 1px dashed rgba(9,208,160,0.4); text-decoration: none;">
-             <img src="public/images/aurora-placeholder.jpg" alt="Aurora 2026 Champions" style="width:100%; max-height:250px; object-fit:contain; display:block; background:rgba(9,208,160,0.1);" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-             <div style="width:100%; height:150px; background:rgba(9,208,160,0.05); display:none; align-items:center; justify-content:center; color:#09D0A0; font-size:0.9rem; text-align:center; padding:1rem; flex-direction:column;">
-                 <i class="fa-regular fa-image" style="font-size:1.5rem; margin-bottom:0.5rem;"></i>
-                 <span>[ Attach Photo Here: public/images/aurora-placeholder.jpg ]</span>
-             </div>
-          </a>
-          <a href="https://www.linkedin.com/posts/bhagya-karunanayake-b52085270_auroraai2026-ideathon-agenticai-ugcPost-7484819669502164992-JC8o/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEI38C4BEmX2qCbbZ8wzjLxE38KtLw1ynwI" target="_blank" rel="noopener noreferrer"
-             class="comp-link" style="color:#09D0A0; margin-top:1rem; display:inline-block;">
-            View Source (LinkedIn) <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i>
-          </a>
-        </div>
-        <div class="timeline-dot">
-          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(9,208,160,0.25),rgba(9,208,160,0.08));border-color:rgba(9,208,160,0.4);box-shadow:0 0 20px rgba(9,208,160,0.25);">🏆</div>
-        </div>
-        <div class="timeline-spacer"></div>
-      </div>
 
-      <!-- 2. Agentrix 2026 -->
-      <div class="timeline-item anim-right">
-        <div class="timeline-spacer"></div>
-        <div class="timeline-dot">
-          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(168,85,247,0.25),rgba(168,85,247,0.08));border-color:rgba(168,85,247,0.4);box-shadow:0 0 20px rgba(168,85,247,0.25);">🚀</div>
-        </div>
-        <div class="timeline-card">
-          <div class="comp-header">
-            <div>
-              <h3 class="comp-title">Agentrix 2026 - 12 Hour Hackathon</h3>
-              <p class="comp-org" style="color:#A855F7;">University of Ruhuna</p>
-            </div>
-            <span class="comp-year">2026</span>
-          </div>
-          <p class="comp-desc">Placed 12th out of 40 teams. Developed <b>Travel Bokka</b> - a resilient tourism and cultural navigator app for Sri Lanka within 12 hours.</p>
-          <a href="https://github.com/zerokali20/AGENTRIX26-TEAM06-Tiramissu" target="_blank" rel="noopener noreferrer" style="display:block; margin-top:1rem; border-radius: 8px; overflow: hidden; border: 1px dashed rgba(168,85,247,0.4); text-decoration: none;">
-             <img src="public/images/Agentrix.jpeg" alt="Agentrix 2026 Team" style="width:100%; max-height:250px; object-fit:contain; display:block; background:rgba(168,85,247,0.1);" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-             <div style="width:100%; height:150px; background:rgba(168,85,247,0.05); display:none; align-items:center; justify-content:center; color:#A855F7; font-size:0.9rem; text-align:center; padding:1rem; flex-direction:column;">
-                 <i class="fa-regular fa-image" style="font-size:1.5rem; margin-bottom:0.5rem;"></i>
-                 <span>[ Attach Photo Here: public/images/Agentrix.jpeg ]</span>
-             </div>
-          </a>
-          <a href="https://github.com/zerokali20/AGENTRIX26-TEAM06-Tiramissu" target="_blank" rel="noopener noreferrer"
-             class="comp-link" style="color:#A855F7; margin-top:1rem; display:inline-block;">
-            View Source (GitHub) <i class="fa-brands fa-github" style="font-size:0.7rem; margin-left:0.3rem;"></i>
-          </a>
-        </div>
-      </div>
-
-      <!-- 3. Team Invictus -->
-      <div class="timeline-item anim-left">
-        <div class="timeline-card">
-          <div class="comp-header">
-            <div>
-              <h3 class="comp-title">Team Invictus — CO2060 2YP</h3>
-              <p class="comp-org" style="color:#6060d0;">University of Peradeniya</p>
-            </div>
-            <span class="comp-year">2024</span>
-          </div>
-          <p class="comp-desc">Led as part of Team Invictus in the CO2060 Second Year Project. Designed and developed PERA-SAM, a complete software system for ML-based audio analysis addressing real societal challenges.</p>
-          <a href="https://proud-glacier-05c9fb600.7.azurestaticapps.net/" target="_blank" rel="noopener noreferrer" style="display:block; margin-top:1rem; border-radius: 8px; overflow: hidden; border: 1px dashed rgba(96,96,208,0.4); text-decoration: none;">
-             <img src="public/images/invictus.jpg" alt="Team Invictus" style="width:100%; max-height:250px; object-fit:contain; display:block; background:rgba(96,96,208,0.1);" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-             <div style="width:100%; height:150px; background:rgba(96,96,208,0.05); display:none; align-items:center; justify-content:center; color:#6060d0; font-size:0.9rem; text-align:center; padding:1rem; flex-direction:column;">
-                 <i class="fa-regular fa-image" style="font-size:1.5rem; margin-bottom:0.5rem;"></i>
-                 <span>[ Attach Photo Here: public/images/invictus.jpg ]</span>
-             </div>
-          </a>
-          <a href="https://proud-glacier-05c9fb600.7.azurestaticapps.net/" target="_blank" rel="noopener noreferrer"
-             class="comp-link" style="color:#6060d0; margin-top:1rem; display:inline-block;">
-            Visit Website <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem; margin-left:0.3rem;"></i>
-          </a>
-        </div>
-        <div class="timeline-dot">
-          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(26,26,138,0.3),rgba(26,26,138,0.1));border-color:rgba(26,26,138,0.5);box-shadow:0 0 20px rgba(26,26,138,0.3);">🎓</div>
-        </div>
-        <div class="timeline-spacer"></div>
-      </div>
-
-      <!-- 4. TryHackMe -->
-      <div class="timeline-item anim-right">
-        <div class="timeline-spacer"></div>
-        <div class="timeline-dot">
-          <div class="dot-icon" style="background:linear-gradient(135deg,rgba(124,58,237,0.25),rgba(124,58,237,0.08));border-color:rgba(124,58,237,0.4);box-shadow:0 0 20px rgba(124,58,237,0.25);">🔐</div>
-        </div>
-        <div class="timeline-card">
-          <div class="comp-header">
-            <div>
-              <h3 class="comp-title">TryHackMe Challenges</h3>
-              <p class="comp-org" style="color:#a78bfa;">TryHackMe</p>
-            </div>
-            <span class="comp-year">2023–Present</span>
-          </div>
-          <p class="comp-desc">Active participant in CTF (Capture the Flag) challenges and cybersecurity rooms including Intro to Security Engineering and Networking Concepts.</p>
-          <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-             class="comp-link" style="color:#a78bfa;">
-            View Profile <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.7rem;"></i>
-          </a>
-        </div>
-      </div>
-
-
-
-    </div><!-- /timeline -->
-
-
-
-  </div><!-- /container -->
-</section>
-
-
-<!-- ══════════════════════════════════════════════════════
-     QUALIFICATIONS
-═══════════════════════════════════════════════════════ -->
-<section id="qualifications" aria-label="Education, Experience, and Certifications">
-  <div class="container-sm">
-
-    <div class="section-head anim-up">
-      <span class="section-label">My Journey</span>
-      <h2 class="section-title"><span class="ul">Qualifications</span></h2>
-      <p class="section-sub">Education background, professional experience, and certifications earned along the way.</p>
-    </div>
-
-    <div class="qual-grid">
-
-      <!-- Education -->
-      <div class="anim-left">
-        <div class="qual-col-head">
-          <div class="qual-col-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
-            <i class="fa-solid fa-graduation-cap" style="color:#09D0A0;"></i>
-          </div>
-          <h3>Education</h3>
-        </div>
-
-        <div class="edu-timeline">
-          <div class="edu-item">
-            <div class="edu-dot"></div>
-            <div class="edu-card" style="position:relative; padding-right:4.5rem;">
-              <img src="public/images/uop.png" alt="UoP Logo" style="position:absolute; top:1.25rem; right:1.25rem; width:45px; height:45px; border-radius:50%; object-fit:contain; background:#fff; padding:3px; box-shadow:0 0 10px rgba(9,208,160,0.2);" />
-              <span class="edu-period">2022 — Present</span>
-              <h4 class="edu-degree">BSc in Computer Engineering (Ongoing)</h4>
-              <p class="edu-institution">University of Peradeniya, Sri Lanka</p>
-              <p class="edu-desc">Studying Computer Engineering with focus on AI/ML, Software Engineering, Computer Networks, Embedded Systems, and Data Structures. Member of @cepdnaclk.</p>
-              <a href="https://www.pdn.ac.lk/" target="_blank" rel="noopener noreferrer" class="edu-link">
-                Visit University <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65rem;"></i>
-              </a>
+            <div class="edu-timeline">
+              <div class="edu-item">
+                <div class="edu-dot"></div>
+                <div class="edu-card" style="position:relative; padding-right:4.5rem;">
+                  <img src="public/images/uop.png" alt="UoP Logo"
+                    style="position:absolute; top:1.25rem; right:1.25rem; width:45px; height:45px; border-radius:50%; object-fit:contain; background:#fff; padding:3px; box-shadow:0 0 10px rgba(9,208,160,0.2);" />
+                  <span class="edu-period">2022 — Present</span>
+                  <h4 class="edu-degree">BSc in Computer Engineering (Ongoing)</h4>
+                  <p class="edu-institution">University of Peradeniya, Sri Lanka</p>
+                  <p class="edu-desc">Studying Computer Engineering with focus on AI/ML, Software Engineering, Computer
+                    Networks, Embedded Systems, and Data Structures. Member of @cepdnaclk.</p>
+                  <a href="https://www.pdn.ac.lk/" target="_blank" rel="noopener noreferrer" class="edu-link">
+                    Visit University <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65rem;"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <!-- Experience -->
-      <div class="anim-up">
-        <div class="qual-col-head">
-          <div class="qual-col-icon" style="background:rgba(255,165,0,0.12);border:1px solid rgba(255,165,0,0.25);">
-            <i class="fa-solid fa-briefcase" style="color:#FFA500;"></i>
-          </div>
-          <h3>Experience</h3>
-        </div>
+          <!-- Experience -->
+          <div class="anim-up">
+            <div class="qual-col-head">
+              <div class="qual-col-icon" style="background:rgba(255,165,0,0.12);border:1px solid rgba(255,165,0,0.25);">
+                <i class="fa-solid fa-briefcase" style="color:#FFA500;"></i>
+              </div>
+              <h3>Experience</h3>
+            </div>
 
-        <div class="edu-timeline">
-          <div class="edu-item">
-            <div class="edu-dot" style="background:#FFA500;box-shadow:0 0 8px rgba(255,165,0,0.5);"></div>
-            <div class="edu-card" style="position:relative; padding-right:4.5rem;">
-              <img src="public/images/aces.png" alt="ACES Logo" style="position:absolute; top:1.25rem; right:1.25rem; width:45px; height:45px; border-radius:50%; object-fit:contain; background:#fff; padding:3px; box-shadow:0 0 10px rgba(255,165,0,0.2);" />
-              <span class="edu-period" style="color:#FFA500;background:rgba(255,165,0,0.1);">Present</span>
-              <h4 class="edu-degree">Secretary</h4>
-              <p class="edu-institution">ACES - Association of Computer Engineering Students</p>
-              <p class="edu-desc">University of Peradeniya, Computer Engineering Department.</p>
-              <a href="https://aces.ce.pdn.ac.lk/" target="_blank" rel="noopener noreferrer" class="edu-link" style="color:#FFA500;">
-                Visit ACES <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65rem;"></i>
-              </a>
+            <div class="edu-timeline">
+              <div class="edu-item">
+                <div class="edu-dot" style="background:#FFA500;box-shadow:0 0 8px rgba(255,165,0,0.5);"></div>
+                <div class="edu-card" style="position:relative; padding-right:4.5rem;">
+                  <img src="public/images/aces.png" alt="ACES Logo"
+                    style="position:absolute; top:1.25rem; right:1.25rem; width:45px; height:45px; border-radius:50%; object-fit:contain; background:#fff; padding:3px; box-shadow:0 0 10px rgba(255,165,0,0.2);" />
+                  <span class="edu-period" style="color:#FFA500;background:rgba(255,165,0,0.1);">Present</span>
+                  <h4 class="edu-degree">Secretary</h4>
+                  <p class="edu-institution">ACES - Association of Computer Engineering Students</p>
+                  <p class="edu-desc">University of Peradeniya, Computer Engineering Department.</p>
+                  <a href="https://aces.ce.pdn.ac.lk/" target="_blank" rel="noopener noreferrer" class="edu-link"
+                    style="color:#FFA500;">
+                    Visit ACES <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.65rem;"></i>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
 
 
 
-    </div><!-- /qual-grid -->
-  </div><!-- /container -->
-</section>
+        </div><!-- /qual-grid -->
+      </div><!-- /container -->
+    </section>
 
 
-<!-- ══════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════
      SKILLS
 ═══════════════════════════════════════════════════════ -->
-<section id="skills" aria-label="Skills and technologies">
-  <div class="container-lg">
+    <section id="skills" aria-label="Skills and technologies">
+      <div class="container-lg">
 
-    <div class="section-head anim-up">
-      <span class="section-label">My Toolkit</span>
-      <h2 class="section-title"><span class="ul">Skills &amp; Technologies</span></h2>
-      <p class="section-sub">A broad stack from systems programming to cloud infrastructure, AI/ML, and security.</p>
-    </div>
+        <div class="section-head anim-up">
+          <span class="section-label">My Toolkit</span>
+          <h2 class="section-title"><span class="ul">Skills &amp; Technologies</span></h2>
+          <p class="section-sub">A broad stack from systems programming to cloud infrastructure, AI/ML, and security.
+          </p>
+        </div>
 
-    <div class="skills-grid" data-stagger>
+        <div class="skills-grid" data-stagger>
 
-      <!-- Programming Languages -->
-      <div class="skill-cat" data-glow-color="#09D0A0" style="transition-delay:0s;">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.22);">💻</div>
-          <span class="skill-cat-name" style="color:#09D0A0;">Programming Languages</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Python</span>
-          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C</span>
-          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C++</span>
-          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Java</span>
-          <span class="skill-badge" style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">JavaScript</span>
-        </div>
-      </div>
+          <!-- Programming Languages -->
+          <div class="skill-cat" data-glow-color="#09D0A0" style="transition-delay:0s;">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.22);">💻</div>
+              <span class="skill-cat-name" style="color:#09D0A0;">Programming Languages</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Python</span>
+              <span class="skill-badge"
+                style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C</span>
+              <span class="skill-badge"
+                style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">C++</span>
+              <span class="skill-badge"
+                style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">Java</span>
+              <span class="skill-badge"
+                style="background:rgba(9,208,160,0.1);color:#09D0A0;border:1px solid rgba(9,208,160,0.18);">JavaScript</span>
+            </div>
+          </div>
 
-      <!-- Web Technologies -->
-      <div class="skill-cat" data-glow-color="#3B82F6">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.22);">🌐</div>
-          <span class="skill-cat-name" style="color:#3B82F6;">Web Technologies</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">HTML5</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">CSS3</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">React.js</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Node.js</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Express.js</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">TypeScript</span>
-          <span class="skill-badge" style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Next.js</span>
-        </div>
-      </div>
+          <!-- Web Technologies -->
+          <div class="skill-cat" data-glow-color="#3B82F6">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.22);">🌐</div>
+              <span class="skill-cat-name" style="color:#3B82F6;">Web Technologies</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">HTML5</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">CSS3</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">React.js</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Node.js</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Express.js</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">TypeScript</span>
+              <span class="skill-badge"
+                style="background:rgba(59,130,246,0.1);color:#3B82F6;border:1px solid rgba(59,130,246,0.18);">Next.js</span>
+            </div>
+          </div>
 
-      <!-- Databases -->
-      <div class="skill-cat" data-glow-color="#F59E0B">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.22);">🗄️</div>
-          <span class="skill-cat-name" style="color:#F59E0B;">Databases</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MySQL</span>
-          <span class="skill-badge" style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MongoDB</span>
-        </div>
-      </div>
+          <!-- Databases -->
+          <div class="skill-cat" data-glow-color="#F59E0B">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.22);">🗄️</div>
+              <span class="skill-cat-name" style="color:#F59E0B;">Databases</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MySQL</span>
+              <span class="skill-badge"
+                style="background:rgba(245,158,11,0.1);color:#F59E0B;border:1px solid rgba(245,158,11,0.18);">MongoDB</span>
+            </div>
+          </div>
 
-      <!-- Tools & Dev -->
-      <div class="skill-cat" data-glow-color="#8B5CF6">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.22);">🛠️</div>
-          <span class="skill-cat-name" style="color:#8B5CF6;">Tools &amp; Dev</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Git</span>
-          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">GitHub</span>
-          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">VS Code</span>
-          <span class="skill-badge" style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Linux</span>
-        </div>
-      </div>
+          <!-- Tools & Dev -->
+          <div class="skill-cat" data-glow-color="#8B5CF6">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.22);">🛠️</div>
+              <span class="skill-cat-name" style="color:#8B5CF6;">Tools &amp; Dev</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Git</span>
+              <span class="skill-badge"
+                style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">GitHub</span>
+              <span class="skill-badge"
+                style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">VS
+                Code</span>
+              <span class="skill-badge"
+                style="background:rgba(139,92,246,0.1);color:#8B5CF6;border:1px solid rgba(139,92,246,0.18);">Linux</span>
+            </div>
+          </div>
 
-      <!-- Robotics & Embedded -->
-      <div class="skill-cat" data-glow-color="#EC4899">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.22);">🤖</div>
-          <span class="skill-cat-name" style="color:#EC4899;">Robotics &amp; Embedded</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Arduino</span>
-          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Raspberry Pi</span>
-          <span class="skill-badge" style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Ubuntu</span>
-        </div>
-      </div>
+          <!-- Robotics & Embedded -->
+          <div class="skill-cat" data-glow-color="#EC4899">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.22);">🤖</div>
+              <span class="skill-cat-name" style="color:#EC4899;">Robotics &amp; Embedded</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Arduino</span>
+              <span class="skill-badge"
+                style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Raspberry
+                Pi</span>
+              <span class="skill-badge"
+                style="background:rgba(236,72,153,0.1);color:#EC4899;border:1px solid rgba(236,72,153,0.18);">Ubuntu</span>
+            </div>
+          </div>
 
-      <!-- Automation & Workflow -->
-      <div class="skill-cat" data-glow-color="#14B8A6">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(20,184,166,0.12);border:1px solid rgba(20,184,166,0.22);">🔧</div>
-          <span class="skill-cat-name" style="color:#14B8A6;">Automation &amp; Workflow</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">n8n</span>
-          <span class="skill-badge" style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">Make.com (Integromat)</span>
-        </div>
-      </div>
+          <!-- Automation & Workflow -->
+          <div class="skill-cat" data-glow-color="#14B8A6">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(20,184,166,0.12);border:1px solid rgba(20,184,166,0.22);">🔧</div>
+              <span class="skill-cat-name" style="color:#14B8A6;">Automation &amp; Workflow</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">n8n</span>
+              <span class="skill-badge"
+                style="background:rgba(20,184,166,0.1);color:#14B8A6;border:1px solid rgba(20,184,166,0.18);">Make.com
+                (Integromat)</span>
+            </div>
+          </div>
 
-      <!-- Cloud & DevOps -->
-      <div class="skill-cat" data-glow-color="#F97316">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(249,115,22,0.12);border:1px solid rgba(249,115,22,0.22);">☁️</div>
-          <span class="skill-cat-name" style="color:#F97316;">Cloud &amp; DevOps</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Microsoft Azure</span>
-          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Google Cloud</span>
-          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Heroku</span>
-          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Docker</span>
-          <span class="skill-badge" style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Redis</span>
-        </div>
-      </div>
+          <!-- Cloud & DevOps -->
+          <div class="skill-cat" data-glow-color="#F97316">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(249,115,22,0.12);border:1px solid rgba(249,115,22,0.22);">☁️</div>
+              <span class="skill-cat-name" style="color:#F97316;">Cloud &amp; DevOps</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Microsoft
+                Azure</span>
+              <span class="skill-badge"
+                style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Google
+                Cloud</span>
+              <span class="skill-badge"
+                style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Heroku</span>
+              <span class="skill-badge"
+                style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Docker</span>
+              <span class="skill-badge"
+                style="background:rgba(249,115,22,0.1);color:#F97316;border:1px solid rgba(249,115,22,0.18);">Redis</span>
+            </div>
+          </div>
 
-      <!-- Cybersecurity -->
-      <div class="skill-cat" data-glow-color="#EF4444">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.22);">🔐</div>
-          <span class="skill-cat-name" style="color:#EF4444;">Cybersecurity</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">TryHackMe (Active)</span>
-          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Intro to Security Eng.</span>
-          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Networking Concepts</span>
-          <span class="skill-badge" style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Endpoint Security</span>
-        </div>
-      </div>
+          <!-- Cybersecurity -->
+          <div class="skill-cat" data-glow-color="#EF4444">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(239,68,68,0.12);border:1px solid rgba(239,68,68,0.22);">🔐</div>
+              <span class="skill-cat-name" style="color:#EF4444;">Cybersecurity</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">TryHackMe
+                (Active)</span>
+              <span class="skill-badge"
+                style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Intro to
+                Security Eng.</span>
+              <span class="skill-badge"
+                style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Networking
+                Concepts</span>
+              <span class="skill-badge"
+                style="background:rgba(239,68,68,0.1);color:#EF4444;border:1px solid rgba(239,68,68,0.18);">Endpoint
+                Security</span>
+            </div>
+          </div>
 
-      <!-- AI / ML -->
-      <div class="skill-cat" data-glow-color="#A855F7">
-        <div class="skill-cat-head">
-          <div class="skill-cat-icon" style="background:rgba(168,85,247,0.12);border:1px solid rgba(168,85,247,0.22);">🧠</div>
-          <span class="skill-cat-name" style="color:#A855F7;">AI / ML</span>
-        </div>
-        <div class="skill-badges">
-          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">ML Models (Azure)</span>
-          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Data Analysis w/ Python</span>
-          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Audio ML (PERA-SAM)</span>
-          <span class="skill-badge" style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">scikit-learn</span>
-        </div>
-      </div>
+          <!-- AI / ML -->
+          <div class="skill-cat" data-glow-color="#A855F7">
+            <div class="skill-cat-head">
+              <div class="skill-cat-icon"
+                style="background:rgba(168,85,247,0.12);border:1px solid rgba(168,85,247,0.22);">🧠</div>
+              <span class="skill-cat-name" style="color:#A855F7;">AI / ML</span>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-badge"
+                style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">ML Models
+                (Azure)</span>
+              <span class="skill-badge"
+                style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Data
+                Analysis w/ Python</span>
+              <span class="skill-badge"
+                style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">Audio ML
+                (PERA-SAM)</span>
+              <span class="skill-badge"
+                style="background:rgba(168,85,247,0.1);color:#A855F7;border:1px solid rgba(168,85,247,0.18);">scikit-learn</span>
+            </div>
+          </div>
 
-    </div><!-- /skills-grid -->
+        </div><!-- /skills-grid -->
 
-    <!-- Bottom decoration -->
-    <div style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:1px;height:5rem;background:linear-gradient(to bottom,rgba(9,208,160,0.3),transparent);" aria-hidden="true"></div>
+        <!-- Bottom decoration -->
+        <div
+          style="position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:1px;height:5rem;background:linear-gradient(to bottom,rgba(9,208,160,0.3),transparent);"
+          aria-hidden="true"></div>
 
-  </div><!-- /container -->
-</section>
+      </div><!-- /container -->
+    </section>
 
 
-<!-- ══════════════════════════════════════════════════════
+    <!-- ══════════════════════════════════════════════════════
      CONTACT
 ═══════════════════════════════════════════════════════ -->
-<section id="contact" aria-label="Contact">
-  <div class="contact-glow" aria-hidden="true"></div>
+    <section id="contact" aria-label="Contact">
+      <div class="contact-glow" aria-hidden="true"></div>
 
-  <div class="container-sm">
+      <div class="container-sm">
 
-    <div class="section-head anim-up">
-      <span class="section-label">Get In Touch</span>
-      <h2 class="section-title"><span class="ul">Contact Me</span></h2>
-      <p class="section-sub">Have a project, opportunity, or just want to say hi? My inbox is always open.</p>
-    </div>
-
-    <div class="contact-grid">
-
-      <!-- Left — Info -->
-      <div class="contact-info" data-stagger>
-
-        <a href="mailto:bhagikaru2003@gmail.com" class="contact-card" aria-label="Send email">
-          <div class="contact-card-icon" style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
-            <i class="fa-solid fa-envelope" style="color:#09D0A0;"></i>
-          </div>
-          <div>
-            <p class="contact-card-label">Email</p>
-            <p class="contact-card-value">bhagikaru2003@gmail.com</p>
-          </div>
-        </a>
-
-        <a href="tel:+94763263100" class="contact-card" aria-label="Call phone number">
-          <div class="contact-card-icon" style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.25);">
-            <i class="fa-solid fa-phone" style="color:#3B82F6;"></i>
-          </div>
-          <div>
-            <p class="contact-card-label">Phone</p>
-            <p class="contact-card-value">+94 763263100</p>
-          </div>
-        </a>
-
-        <a href="https://maps.google.com/?q=Mirigama,Sri+Lanka" target="_blank" rel="noopener noreferrer"
-           class="contact-card" aria-label="View location on map">
-          <div class="contact-card-icon" style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.25);">
-            <i class="fa-solid fa-location-dot" style="color:#EC4899;"></i>
-          </div>
-          <div>
-            <p class="contact-card-label">Location</p>
-            <p class="contact-card-value">Mirigama, Sri Lanka</p>
-          </div>
-        </a>
-
-        <!-- Social row -->
-        <div class="find-me">
-          <p class="find-me-label">Find me on</p>
-          <div class="find-me-icons">
-            <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
-               class="social-icon" aria-label="GitHub" data-hover-color="#ffffff">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
-               class="social-icon" aria-label="LinkedIn" data-hover-color="#0A66C2">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
-               class="social-icon" aria-label="Instagram" data-hover-color="#E1306C">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-               class="social-icon" aria-label="Facebook" data-hover-color="#1877F2">
-              <i class="fa-brands fa-facebook"></i>
-            </a>
-            <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-               class="social-icon" aria-label="TryHackMe" data-hover-color="#88C0D0">
-              <i class="fa-solid fa-shield-halved"></i>
-            </a>
-          </div>
+        <div class="section-head anim-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title"><span class="ul">Contact Me</span></h2>
+          <p class="section-sub">Have a project, opportunity, or just want to say hi? My inbox is always open.</p>
         </div>
 
-      </div><!-- /info -->
+        <div class="contact-grid">
 
-      <!-- Right — Form -->
-      <div class="anim-right">
-        <div class="contact-form-wrap">
-          <h3>Send a Message</h3>
+          <!-- Left — Info -->
+          <div class="contact-info" data-stagger>
 
-          <!-- Form -->
-          <form id="contact-form" novalidate>
-            <div class="form-group">
-              <label for="contact-name">Name</label>
-              <input id="contact-name" name="name" type="text" class="form-input"
-                     placeholder="Your name" required autocomplete="name" />
-            </div>
-            <div class="form-group">
-              <label for="contact-email">Email</label>
-              <input id="contact-email" name="email" type="email" class="form-input"
-                     placeholder="your@email.com" required autocomplete="email" />
-            </div>
-            <div class="form-group">
-              <label for="contact-message">Message</label>
-              <textarea id="contact-message" name="message" class="form-input"
-                        rows="5" placeholder="Tell me about your project or opportunity…" required></textarea>
-            </div>
-            <button type="submit" class="submit-btn">
-              <span class="btn-label">
-                <i class="fa-solid fa-paper-plane"></i>
-                Send Message
-              </span>
-              <span class="btn-spinner" aria-live="polite">
-                <span class="spinner" aria-hidden="true"></span>
-                Sending…
-              </span>
-            </button>
-          </form>
+            <a href="mailto:bhagikaru2003@gmail.com" class="contact-card" aria-label="Send email">
+              <div class="contact-card-icon"
+                style="background:rgba(9,208,160,0.12);border:1px solid rgba(9,208,160,0.25);">
+                <i class="fa-solid fa-envelope" style="color:#09D0A0;"></i>
+              </div>
+              <div>
+                <p class="contact-card-label">Email</p>
+                <p class="contact-card-value">bhagikaru2003@gmail.com</p>
+              </div>
+            </a>
 
-          <!-- Success state -->
-          <div id="form-success" role="alert" aria-live="assertive">
-            <div class="success-icon">✅</div>
-            <h4>Message Sent!</h4>
-            <p>Thanks for reaching out. I'll get back to you soon.</p>
+            <a href="tel:+94763263100" class="contact-card" aria-label="Call phone number">
+              <div class="contact-card-icon"
+                style="background:rgba(59,130,246,0.12);border:1px solid rgba(59,130,246,0.25);">
+                <i class="fa-solid fa-phone" style="color:#3B82F6;"></i>
+              </div>
+              <div>
+                <p class="contact-card-label">Phone</p>
+                <p class="contact-card-value">+94 763263100</p>
+              </div>
+            </a>
+
+            <a href="https://maps.google.com/?q=Mirigama,Sri+Lanka" target="_blank" rel="noopener noreferrer"
+              class="contact-card" aria-label="View location on map">
+              <div class="contact-card-icon"
+                style="background:rgba(236,72,153,0.12);border:1px solid rgba(236,72,153,0.25);">
+                <i class="fa-solid fa-location-dot" style="color:#EC4899;"></i>
+              </div>
+              <div>
+                <p class="contact-card-label">Location</p>
+                <p class="contact-card-value">Mirigama, Sri Lanka</p>
+              </div>
+            </a>
+
+            <!-- Social row -->
+            <div class="find-me">
+              <p class="find-me-label">Find me on</p>
+              <div class="find-me-icons">
+                <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="social-icon"
+                  aria-label="GitHub" data-hover-color="#ffffff">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank"
+                  rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" data-hover-color="#0A66C2">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+                  class="social-icon" aria-label="Instagram" data-hover-color="#E1306C">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+                  class="social-icon" aria-label="Facebook" data-hover-color="#1877F2">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
+                  class="social-icon" aria-label="TryHackMe" data-hover-color="#88C0D0">
+                  <i class="fa-solid fa-shield-halved"></i>
+                </a>
+              </div>
+            </div>
+
+          </div><!-- /info -->
+
+          <!-- Right — Form -->
+          <div class="anim-right">
+            <div class="contact-form-wrap">
+              <h3>Send a Message</h3>
+
+              <!-- Form -->
+              <form id="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="name" type="text" class="form-input" placeholder="Your name" required
+                    autocomplete="name" />
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email</label>
+                  <input id="contact-email" name="email" type="email" class="form-input" placeholder="your@email.com"
+                    required autocomplete="email" />
+                </div>
+                <div class="form-group">
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" name="message" class="form-input" rows="5"
+                    placeholder="Tell me about your project or opportunity…" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                  <span class="btn-label">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Send Message
+                  </span>
+                  <span class="btn-spinner" aria-live="polite">
+                    <span class="spinner" aria-hidden="true"></span>
+                    Sending…
+                  </span>
+                </button>
+              </form>
+
+              <!-- Success state -->
+              <div id="form-success" role="alert" aria-live="assertive">
+                <div class="success-icon">✅</div>
+                <h4>Message Sent!</h4>
+                <p>Thanks for reaching out. I'll get back to you soon.</p>
+              </div>
+
+            </div><!-- /form-wrap -->
           </div>
 
-        </div><!-- /form-wrap -->
-      </div>
+        </div><!-- /contact-grid -->
+      </div><!-- /container -->
+    </section>
 
-    </div><!-- /contact-grid -->
-  </div><!-- /container -->
-</section>
-
-</main><!-- /main -->
+  </main><!-- /main -->
 
 
-<!-- ══════════════════════════════════════════════════════
+  <!-- ══════════════════════════════════════════════════════
      FOOTER
 ═══════════════════════════════════════════════════════ -->
-<footer>
-  <div class="footer-glow" aria-hidden="true"></div>
+  <footer>
+    <div class="footer-glow" aria-hidden="true"></div>
 
-  <div class="footer-inner">
+    <div class="footer-inner">
 
 
-    <!-- Nav links -->
-    <nav class="footer-links" aria-label="Footer navigation">
-      <a href="#about"          class="footer-link">About</a>
-      <a href="#projects"       class="footer-link">Projects</a>
-      <a href="#competition"    class="footer-link">Competition</a>
-      <a href="#qualifications" class="footer-link">Qualifications</a>
-      <a href="#skills"         class="footer-link">Skills</a>
-      <a href="#contact"        class="footer-link">Contact</a>
-    </nav>
+      <!-- Nav links -->
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#competition" class="footer-link">Competition</a>
+        <a href="#qualifications" class="footer-link">Qualifications</a>
+        <a href="#skills" class="footer-link">Skills</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </nav>
 
-    <!-- Social icons -->
-    <div class="footer-socials" aria-label="Social links">
-      <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer"
-         class="footer-social" aria-label="GitHub">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
-         class="footer-social" aria-label="LinkedIn">
-        <i class="fa-brands fa-linkedin"></i>
-      </a>
-      <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
-         class="footer-social" aria-label="Instagram">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-         class="footer-social" aria-label="Facebook">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-      <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer"
-         class="footer-social" aria-label="TryHackMe">
-        <i class="fa-solid fa-shield-halved"></i>
-      </a>
-    </div>
+      <!-- Social icons -->
+      <div class="footer-socials" aria-label="Social links">
+        <a href="https://github.com/zerokali20" target="_blank" rel="noopener noreferrer" class="footer-social"
+          aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/bhagya-karunanayake-b52085270/" target="_blank" rel="noopener noreferrer"
+          class="footer-social" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/prabhashwara.insta/" target="_blank" rel="noopener noreferrer"
+          class="footer-social" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/bhagikaru2003" target="_blank" rel="noopener noreferrer" class="footer-social"
+          aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://tryhackme.com/p/bhagikaru2003" target="_blank" rel="noopener noreferrer" class="footer-social"
+          aria-label="TryHackMe">
+          <i class="fa-solid fa-shield-halved"></i>
+        </a>
+      </div>
 
-    <div class="footer-divider"></div>
+      <div class="footer-divider"></div>
 
-    <!-- Copyright -->
-    <div class="footer-copy">
-      <p>© <span id="year"></span> <span class="name-hl">Bhagya Karunanayake</span>. All rights reserved.</p>
-      <p class="built">Built with HTML · CSS · JavaScript</p>
-    </div>
+      <!-- Copyright -->
+      <div class="footer-copy">
+        <p>© <span id="year"></span> <span class="name-hl">Bhagya Karunanayake</span>. All rights reserved.</p>
+        <p class="built">Built with HTML · CSS · JavaScript</p>
+      </div>
 
-  </div><!-- /footer-inner -->
-</footer>
+    </div><!-- /footer-inner -->
+  </footer>
 
-<!-- ── Scripts ──────────────────────────────────────────── -->
-<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="js/particles.js"></script>
-<script src="js/typewriter.js"></script>
-<script src="js/animations.js"></script>
-<script src="js/main.js"></script>
+  <!-- ── Scripts ──────────────────────────────────────────── -->
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/particles.js"></script>
+  <script src="js/typewriter.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
+
 </html>
