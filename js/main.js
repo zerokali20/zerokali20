@@ -12,7 +12,35 @@
   const contactForm = document.getElementById('contact-form');
   const formSuccess = document.getElementById('form-success');
 
-  const SECTIONS = ['about', 'projects', 'competition', 'qualifications', 'skills', 'contact'];
+  const SECTIONS = ['about', 'trajectory', 'projects', 'competition', 'skills', 'contact'];
+
+  /* ── Dark / Light Theme Toggle ────────────────────── */
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    if (themeIcon) {
+      if (theme === 'dark') {
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
+      } else {
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+      }
+    }
+  }
+
+  // Default to light (Sam Karu paper style) unless user previously toggled to dark
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  applyTheme(savedTheme);
+
+  themeToggle?.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+  });
 
   /* ── Smooth Scroll ────────────────────────────────── */
   function scrollTo(id) {
