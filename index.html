@@ -18,7 +18,18 @@
 
   <title>Bhagya Karunanayake</title>
 
+  <!-- Theme: apply before paint to prevent flash of wrong theme -->
+  <script>
+    (function () {
+      var saved = localStorage.getItem('theme');
+      var theme = saved === 'dark' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
   <!-- Font Awesome 6 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     crossorigin="anonymous" />
 

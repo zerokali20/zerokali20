@@ -399,7 +399,7 @@ button {
 }
 
 .hero-avatar-box {
-  width: 165x;
+  width: 165px;
   height: 165px;
   background: var(--surface-raised);
   border: 2px solid var(--border-strong);
@@ -1359,6 +1359,16 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  .sub-header-bar {
+    font-size: 0.65rem;
+    padding: 0.5rem 0;
+  }
+
+  .sub-header-inner {
+    gap: 0.4rem;
+    justify-content: space-between;
+  }
 
   .nav-links,
   .nav-reach-out {
