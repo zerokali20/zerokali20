@@ -504,6 +504,22 @@ button {
   opacity: 0.75;
 }
 
+/* CV download link — accent highlight */
+.quick-link-cv {
+  color: var(--accent-blue);
+  border-bottom-color: var(--accent-blue);
+}
+
+[data-theme="dark"] .quick-link-cv {
+  color: var(--accent-blue);
+  border-bottom-color: var(--accent-blue);
+}
+
+.quick-link-cv:hover {
+  opacity: 0.8;
+  border-bottom-color: var(--accent-blue);
+}
+
 /* Right News Box (Mirroring Sam Karu News Card) */
 .hero-news-card {
   background: var(--surface);
