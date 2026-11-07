@@ -700,6 +700,51 @@ section {
   max-width: 600px;
 }
 
+/* ── About Section (Section 01: Who I am) ─────────────────── */
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.about-text-lead {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.about-text-sub {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.about-pillars-header {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}
+
+.about-pillars-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.about-quote {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-left: 2px solid var(--text-primary);
+  padding-left: 1rem;
+  line-height: 1.6;
+}
+
 /* ── Trajectory Table (Mirroring Sam Karu Screenshot 2) ───── */
 .trajectory-filter {
   font-family: var(--font-mono);
@@ -1377,6 +1422,11 @@ footer {
     font-size: 2.6rem;
   }
 
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
   .trajectory-row {
     grid-template-columns: 1fr;
     gap: 0.75rem;
@@ -1417,6 +1467,10 @@ footer {
     height: 130px;
   }
 
+  .about-layout {
+    gap: 1.75rem;
+  }
+
   .section-serif-title {
     font-size: 2.15rem;
   }
@@ -1428,5 +1482,21 @@ footer {
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .about-text-lead {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .about-text-sub {
+    font-size: 0.94rem;
+    line-height: 1.65;
   }
 }
