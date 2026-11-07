@@ -630,6 +630,19 @@ button {
   text-underline-offset: 2px;
 }
 
+/* Plain repo links inside news — bold but no underline */
+.news-link {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+  border-bottom: none;
+}
+
+.news-link:hover {
+  opacity: 0.75;
+  text-decoration: none;
+}
+
 .news-card-footer {
   margin-top: 1.5rem;
   padding-top: 0.9rem;
