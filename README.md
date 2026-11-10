@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  📍 <strong>07.2537° N, 80.5922° E · Peradeniya / Mirigama, Sri Lanka</strong> &nbsp;|&nbsp; 🟢 <strong>BUILDING · Secretary, ACES · Computer Engineering, UoP</strong>
+  📍 <strong>07.2537° N, 80.5922° E · Peradeniya / Mirigama, Sri Lanka</strong> &nbsp;|&nbsp; 🟢 <strong>BUILDING · Computer Engineering, UoP</strong>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
