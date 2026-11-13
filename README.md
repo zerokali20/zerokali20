@@ -259,6 +259,21 @@
   <tbody>
     <tr>
       <td>
+        <strong>ArbiterPay</strong> 💳 🤖<br/>
+        <em>AI-Powered Milestone Payments & Code Verification Platform</em><br/>
+        Built for the <strong>Build What's Next with PayPal and AI</strong> challenge. Combines PayPal milestone payments and automated payouts with AI-powered code verification against agreed acceptance criteria. Governed by a strict rule-based policy: <em>AI never moves money. Code decides.</em>
+      </td>
+      <td>
+        <code>Next.js</code> <code>TypeScript</code> <code>PostgreSQL</code> <code>Claude AI</code> <code>PayPal APIs</code> <code>AG Grid</code>
+      </td>
+      <td>
+        <a href="https://lnkd.in/gFt_ueYc"><strong>Repository ↗</strong></a><br/>
+        <a href="https://lnkd.in/g8hbVu-d"><strong>Live Demo ↗</strong></a><br/>
+        <a href="https://lnkd.in/p/gpwwv5nw"><strong>Post ↗</strong></a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <strong>Forensic-Medicine-Database</strong> 🏥<br/>
         <em>Medical Records & Forensic Case Management Integration</em><br/>
         Production-ready relational database management system for the Faculty of Medicine, University of Peradeniya, enforcing ACID transactional integrity and strict role-based access.
@@ -450,6 +465,7 @@
 
 <p align="center">
   <strong>Databases & Cloud Infrastructure</strong><br/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
