@@ -98,6 +98,16 @@
       </a>
     </td>
   </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -161,6 +171,16 @@
       </td>
     </tr>
   </tbody>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ### ⚡ 2. Cyber-Physical Systems, Hardware & Edge Computing
@@ -203,6 +223,16 @@
       </td>
     </tr>
   </tbody>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ### ⚙️ 3. Systems Programming, Simulation & Graphics
@@ -244,6 +274,16 @@
       </td>
     </tr>
   </tbody>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ### 🌐 4. Full-Stack Engineering, Databases & Resilient Web Apps
@@ -300,6 +340,16 @@
       </td>
     </tr>
   </tbody>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -360,6 +410,16 @@
       </ul>
     </td>
   </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ---
@@ -568,6 +628,16 @@ Whether you want to discuss AI research, systems programming, open-source initia
       </a>
     </td>
   </tr>
+<tr>
+  <td width="50%" valign="top">
+    <h3>🚀 NASA Space App – Field Shift: Adapting Farms with NASA Data</h3>
+    <p>
+      <strong>Certificate of participation</strong> in the NASA Space App Challenge 2024.
+    </p>
+    <p>🔗 <a href="https://github.com/mbimsara/NASA-Space-App" target="_blank"><strong>View Repository ↗</strong></a></p>
+  </td>
+  <td width="50%" valign="top"></td>
+</tr>
 </table>
 
 <div align="center">
