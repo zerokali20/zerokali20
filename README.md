@@ -500,15 +500,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zerokali20&show_icons=true&theme=tokyonight&hide_border=true&bg_color=091519&title_color=61DAFB&icon_color=88C0D0&text_color=e0e6ed" alt="Bhagya's GitHub Stats" width="48%" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zerokali20&layout=compact&theme=tokyonight&hide_border=true&bg_color=091519&title_color=61DAFB&text_color=e0e6ed" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zerokali20&theme=tokyonight&hide_border=true&background=091519&ring=61DAFB&fire=61DAFB&currStreakLabel=61DAFB" alt="GitHub Streak" width="97%" />
-</p>
 
 <!-- Snake Contribution Graph -->
 <p align="center">
