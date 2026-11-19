@@ -524,7 +524,7 @@ Whether you want to discuss AI research, systems programming, open-source initia
     </td>
     <td align="center">
       <a href="tel:+94783263100">
-        <img src="https://img.shields.io/badge/Phone-+94_763263100-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
+        <img src="https://img.shields.io/badge/Phone-+94_783263100-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone" />
       </a>
     </td>
     <td align="center">
